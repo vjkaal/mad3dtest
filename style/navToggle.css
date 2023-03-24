@@ -1,0 +1,44 @@
+img.open-nav,
+img.hide-nav {
+  width: var(--fs-header);
+  margin: .1rem;
+  padding-top: .1rem;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle:checked ~ .nav {
+  display: block;
+  transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ .nav .navItems{
+  opacity: 1;
+  /* transition: opacity 100ms ease-out 100ms; */
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: .5rem;
+  right: 1rem;
+  height: 100%;
+}
+
+.nav-toggle-label > img.open-nav {
+  display: inline;
+}
+
+.nav-toggle-label > img.hide-nav {
+  display: none;
+}
+
+.nav-toggle:checked ~ .nav-toggle-label > img.open-nav {
+  display: none;
+}
+
+.nav-toggle:checked ~ .nav-toggle-label > img.hide-nav {
+  transition: 1s ease-in-out;
+  display: inline;
+}

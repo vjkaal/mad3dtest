@@ -1,0 +1,65 @@
+header {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 10%;
+  max-height: 10%;
+  background: var(--primary);
+  color: var(--secondary);
+  font-family: var(--font1);
+  font-weight: 500;
+}
+
+header .left {
+  padding: 1rem;
+  /* background-color: antiquewhite; */
+  /* display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between; */
+}
+
+header .left .logo {
+  font-size: var(--fs-header);
+}
+
+header .right .nav {
+  /* position: absolute; */
+  text-align: right;
+  width: 100%;
+  top: 100%;
+  padding: 0.5rem 1rem;
+
+  background-color: var(--secondary);
+  /* border-bottom-left-radius: 1rem; */
+  /* border-bottom-right-radius: 1rem; */
+
+  transform: scale(1, 0);
+  -webkit-transform: scale(1,0);
+  transform-origin: top;
+  -webkit-transform-origin: top;
+  transition: transform 200ms ease-out;
+  -webkit-transition: transform 200ms ease-out;
+}
+
+.nav .navItems {
+  display: block;
+  color: var(--background-dark);
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 400ms ease-in 200ms;
+  -webkit-transition: opacity 400ms ease-in 200ms;
+}
+
+.nav-link-container {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.nav-link-container a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.nav-link-container:hover a {
+  color: var(--primary);
+}
