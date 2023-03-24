@@ -1,0 +1,17 @@
+footer{
+  text-align: center;
+  background: var(--secondary);
+}
+
+footer .about_us{
+  padding: 2rem 1rem;
+}
+
+footer .vjkaal-heading{
+  color: var(--primary);
+  padding-bottom: 1rem;
+}
+
+footer .vjkaal-text-content{
+  color: var(--accent);
+}
