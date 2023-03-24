@@ -3,15 +3,15 @@ footer{
   background: var(--secondary);
 }
 
-footer .about_us{
+footer .about_us,footer .contact_us{
   padding: 2rem 1rem;
 }
 
-footer .vjkaal-heading{
+footer .vjkaal-heading,footer .lokesh_heading{
   color: var(--primary);
   padding-bottom: 1rem;
 }
 
-footer .vjkaal-text-content{
+footer .vjkaal-text-content,footer .lokesh_text-content{
   color: var(--accent);
 }
