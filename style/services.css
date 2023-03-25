@@ -1,0 +1,14 @@
+section.services{
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.services > div{
+  background: aqua;
+  margin: 1rem;
+}
+
+.services .image-container img{
+  width: calc(3 * var(--fs-header));
+  border: 1px solid black;
+}
