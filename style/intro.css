@@ -1,15 +1,25 @@
-article .intro{
-    text-align:center;
-    background:var(--primary);
+article .intro {
+  text-align: center;
+  /* background: var(--primary); */
 }
-article .lokesh_heading{
-    font-family: var(--font1);
-    font-size: var(--fs-header);
-    margin-bottom: 1rem;
+article .lokesh_heading {
+  font-family: var(--font1);
+  font-size: calc(1.7 * var(--fs-header));
+  margin-bottom: 1rem;
 }
-article .lokesh_text-content{
-    color:var(--secondary)
+
+article .intro .lokesh_heading{
+  font-weight: bolder;
 }
-article .para1,article .para2{
-    margin-bottom: 1rem;
+
+article .intro .lokesh_capitalize{
+  text-transform: uppercase;
+}
+
+article .lokesh_text-content {
+  color: var(--secondary);
+}
+article .para1,
+article .para2 {
+  margin-bottom: 1rem;
 }

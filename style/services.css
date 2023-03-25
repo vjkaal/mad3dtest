@@ -9,6 +9,6 @@ section.services{
 }
 
 .services .image-container img{
-  width: calc(3 * var(--fs-header));
+  width: calc(var(--fs-header) * 3);
   border: 1px solid black;
 }
