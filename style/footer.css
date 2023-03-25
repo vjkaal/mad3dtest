@@ -7,9 +7,14 @@ footer .about_us,footer .contact_us{
   padding: 2rem 1rem;
 }
 
-footer .vjkaal-heading,footer .lokesh_heading{
+footer .vjkaal-title,footer .lokesh_title{
   color: var(--primary);
   padding-bottom: 1rem;
+}
+
+footer .lokesh_heading{
+  color: var(--primary);
+  padding: 1rem 0;
 }
 
 footer .vjkaal-text-content,footer .lokesh_text-content{
