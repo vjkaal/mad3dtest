@@ -1,0 +1,15 @@
+article .intro{
+    text-align:center;
+    background:var(--primary);
+}
+article .lokesh_heading{
+    font-family: var(--font1);
+    font-size: var(--fs-header);
+    margin-bottom: 1rem;
+}
+article .lokesh_text-content{
+    color:var(--secondary)
+}
+article .para1,article .para2{
+    margin-bottom: 1rem;
+}
