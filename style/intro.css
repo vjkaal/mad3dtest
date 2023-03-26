@@ -3,16 +3,28 @@ article .intro {
   /* background: var(--primary); */
 }
 article .lokesh_heading {
-  font-family: var(--font1);
+  margin: 0 1rem;
   font-size: calc(1.7 * var(--fs-header));
   margin-bottom: 1rem;
+  font-family: var(--font1);
 }
 
-article .intro .lokesh_heading{
-  font-weight: bolder;
+article .lokesh_text-content {
+  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.intro .company_title {
+  font-family: var(--font3);
+  font-size: calc(2.5 * var(--fs-header));
+  /* font-weight: 500; */
 }
 
-article .intro .lokesh_capitalize{
+article .intro .lokesh_heading {
+  font-weight: bold;
+}
+
+article .intro .lokesh_capitalize {
   text-transform: uppercase;
 }
 

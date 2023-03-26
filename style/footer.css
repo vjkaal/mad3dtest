@@ -20,3 +20,13 @@ footer .lokesh_heading{
 footer .vjkaal-text-content,footer .lokesh_text-content{
   color: var(--accent);
 }
+hr
+{ 
+    border-style: dotted none none;
+    border-width: 0.3rem;
+    border-color: grey;
+    height:0px;
+    width:50%;
+   margin:0 auto 0 auto;
+
+}
