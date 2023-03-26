@@ -20,6 +20,10 @@ article .company_title{
     font-weight: 500;
     
 }
+article .company_title::before{
+    content:"\a";
+    white-space: pre;
+}
 article .lokesh_text-content{
     color:var(--secondary)
 }
