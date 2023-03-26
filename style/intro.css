@@ -3,9 +3,22 @@ article .intro{
     background:var(--primary);
 }
 article .lokesh_heading{
-    font-family: var(--font1);
+    margin:0 1rem;
     font-size: var(--fs-header);
     margin-bottom: 1rem;
+    font-family: var(--font1);
+    
+    
+}
+article .lokesh_text-content{
+    padding:1rem 0rem;
+    width:80%;
+    margin:0 auto 0 auto;
+}
+article .company_title{
+    font-family: 'Monoton', cursive;
+    font-weight: 500;
+    
 }
 article .lokesh_text-content{
     color:var(--secondary)
