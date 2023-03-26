@@ -9,16 +9,12 @@ article .lokesh_heading {
   font-family: var(--font1);
 }
 
-article .lokesh_text-content {
-  padding: 1rem 0;
-  width: 80%;
-  margin: 0 auto;
-}
 .intro .company_title {
   font-family: var(--font3);
   font-size: calc(2.5 * var(--fs-header));
   /* font-weight: 500; */
 }
+
 article .company_title::before{
     content:"\a";
     white-space: pre;
@@ -32,9 +28,13 @@ article .intro .lokesh_capitalize {
   text-transform: uppercase;
 }
 
-article .lokesh_text-content {
+article .intro .lokesh_text-content {
+  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto;
   color: var(--secondary);
 }
+
 article .para1,
 article .para2 {
   margin-bottom: 1rem;
