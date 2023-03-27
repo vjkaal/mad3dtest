@@ -9,12 +9,21 @@ img.hide-nav {
   display: none;
 }
 
-.nav-toggle:checked ~ .nav {
+/* nav toggle affects header */
+.nav-toggle:checked ~ .left .logo-default{
+  display: none;
+}
+
+.nav-toggle:checked ~ .left .logo-menu{
+  display: block;
+}
+
+.nav-toggle:checked ~ .right .nav {
   display: block;
   transform: scale(1, 1);
 }
 
-.nav-toggle:checked ~ .nav .navItems{
+.nav-toggle:checked ~ .right .nav .navItems{
   opacity: 1;
   /* transition: opacity 100ms ease-out 100ms; */
 }
@@ -34,11 +43,11 @@ img.hide-nav {
   display: none;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label > img.open-nav {
+.nav-toggle:checked ~ .right .nav-toggle-label > img.open-nav {
   display: none;
 }
 
-.nav-toggle:checked ~ .nav-toggle-label > img.hide-nav {
+.nav-toggle:checked ~ .right .nav-toggle-label > img.hide-nav {
   transition: 1s ease-in-out;
   display: inline;
 }

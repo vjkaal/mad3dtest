@@ -11,14 +11,14 @@ header {
 
 header .left {
   padding: 1rem;
-  /* background-color: antiquewhite; */
-  /* display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between; */
 }
 
 header .left .logo {
   font-size: var(--fs-header);
+}
+
+header .left .logo-menu{
+  display: none;
 }
 
 header .right .nav {
