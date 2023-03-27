@@ -1,27 +1,30 @@
 article .intro {
+  width: 100%;
+  min-height: calc(100vh - 3rem);
+  max-height: calc(100vh - 3rem);
   text-align: center;
-  /* background: var(--primary); */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
 }
+
 article .lokesh_heading {
   margin: 0 1rem;
-  font-size: calc(1.7 * var(--fs-header));
-  margin-bottom: 1rem;
+  font-size: calc(2 * var(--fs-header));
   font-family: var(--font1);
+  /* uncommenting this creates unnecessary whitespace in the page */
+  /* margin-bottom: 3rem; */
 }
 
 .intro .company_title {
   font-family: var(--font3);
   font-size: calc(2.5 * var(--fs-header));
-  /* font-weight: 500; */
-}
-
-article .company_title::before{
-    content:"\a";
-    white-space: pre;
-}
-
-article .intro .lokesh_heading {
   font-weight: bold;
+}
+
+article .company_title::before {
+  content: "\a";
+  white-space: pre;
 }
 
 article .intro .lokesh_capitalize {
