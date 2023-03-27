@@ -1,8 +1,8 @@
 header {
   min-width: 100%;
   max-width: 100%;
-  min-height: 10%;
-  max-height: 10%;
+  min-height: 3rem;
+  max-height: 3rem;
   background: var(--primary);
   color: var(--secondary);
   font-family: var(--font1);
@@ -22,15 +22,20 @@ header .left .logo-menu{
 }
 
 header .right .nav {
+  /* dont uncomment following 2 lines code breaks the drop down menu */
   /* position: absolute; */
-  text-align: right;
+  /* top: 3rem; */
+  
   width: 100%;
-  top: 100%;
-  padding: 0.5rem 1rem;
+  text-align: right;
+  padding: 1rem;
+  /* margin top is necessary to avoid the menu from going down a bit and breaking nice look */
+  margin-top: -0.5rem;
 
   background-color: var(--secondary);
-  /* border-bottom-left-radius: 1rem; */
-  /* border-bottom-right-radius: 1rem; */
+  /* following 2 lines are not rqd but may be needed to make design a bit more stupid */
+  /* border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem; */
 
   transform: scale(1, 0);
   -webkit-transform: scale(1,0);

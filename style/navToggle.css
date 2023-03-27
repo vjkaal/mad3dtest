@@ -10,13 +10,19 @@ img.hide-nav {
 }
 
 /* nav toggle affects header */
+
+/* following two elements refer to changing the logo when menubar is toggled */
 .nav-toggle:checked ~ .left .logo-default{
   display: none;
 }
 
 .nav-toggle:checked ~ .left .logo-menu{
   display: block;
+  font-weight: 600;
 }
+
+
+/* following css refers to the menu bar being toggled */
 
 .nav-toggle:checked ~ .right .nav {
   display: block;
@@ -25,7 +31,8 @@ img.hide-nav {
 
 .nav-toggle:checked ~ .right .nav .navItems{
   opacity: 1;
-  /* transition: opacity 100ms ease-out 100ms; */
+  /* dont mess with this transition, it breaks the menu items opacity transition */
+  /* transition: opacity 100ms ease-out; */
 }
 
 .nav-toggle-label {
