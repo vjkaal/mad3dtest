@@ -19,15 +19,10 @@ article .company_title::before{
     content:"\a";
     white-space: pre;
 }
-<<<<<<< HEAD
-article .company_title::before{
-    content:"\a";
-    white-space: pre;
-}
+
 article .lokesh_text-content{
     color:var(--secondary)
-=======
-
+}
 article .intro .lokesh_heading {
   font-weight: bold;
 }
@@ -46,5 +41,4 @@ article .intro .lokesh_text-content {
 article .para1,
 article .para2 {
   margin-bottom: 1rem;
->>>>>>> 97e7768a20743c3affe0a4d10a3c5d99150b91e3
 }

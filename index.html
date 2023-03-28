@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./style/master.css">
-  <link rel="stylesheet" href="./style/header.css">
-  <link rel="stylesheet" href="./style/navToggle.css">
-  <link rel="stylesheet" href="./style/footer.css">
-  <link rel="stylesheet" href="./style/intro.css">
-  <link rel="stylesheet" href="./style/services.css">
+  <link rel="stylesheet" href="./style/home/master.css">
+  <link rel="stylesheet" href="./style/home/header.css">
+  <link rel="stylesheet" href="./style/home/navToggle.css">
+  <link rel="stylesheet" href="./style/home/intro.css">
+  <link rel="stylesheet" href="./style/home/services.css">
+  <link rel="stylesheet" href="./style/home/aboutUs.css">
+  <link rel="stylesheet" href="./style/home/footer.css">
 
   <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
 
@@ -19,13 +20,15 @@
 
 <body>
   <header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    
     <div class="left">
-      <div class="logo">MAD 3D STUDIO</div>
+      <div class="logo logo-default">M3S</div>
+      <div class="logo logo-menu">MAD 3D STUDIO</div>
     </div>
-    </div>
-    <div class="right menu-bar">
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-
+    
+    <div class="right">
+      
       <label for="nav-toggle" class="nav-toggle-label">
         <img src="./res/images/icons/menu_dark.svg" class="open-nav hImg" alt="" />
         <img src="./res/images/icons/close_dark.svg" class="hide-nav hImg" alt="open" />
@@ -37,16 +40,16 @@
             <a href="#">HOME</a>
           </div>
           <div class="services nav-link-container">
-            <a href="#">SERVICES</a>
+            <a href="#services">SERVICES</a>
           </div>
           <div class="portfolio nav-link-container">
             <a href="#">PORTFOLIO</a>
           </div>
           <div class="about nav-link-container">
-            <a href="#">ABOUT</a>
+            <a href="#about_us">ABOUT</a>
           </div>
           <div class="contact nav-link-container">
-            <a href="#">CONTACT US</a>
+            <a href="#contact_us">CONTACT US</a>
           </div>
         </div>
       </nav>
@@ -67,79 +70,112 @@
         </h1>
       </div>
       <div class="lokesh_description lokesh_text-content">
-        <p class=" para1">
+        <p>
           Welcome to our 3D and Graphic Design company! We specialize in providing high-quality visual solutions
           for various industries, such as gaming, film, architecture, product design, and advertising.
-        </p>
-        <p class="para2">
-          Our team of skilled professionals includes 3D artists, graphic designers, animators, and visual
-          effects experts who have extensive experience in their respective fields.
         </p>
       </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
       <div class="architecture">
-        <div class="vjkaal-image image-container">
+        <div class="vk-image image-container">
           <img src="./res/images/services/architecture.png" alt="" />
         </div>
-        <div class="vjkaal-text-content">
+        <div class="vk-text-content">
           <h3>ARCHITECTURE</h3>
         </div>
       </div>
 
       <div class="landscape">
-        <div class="vjkaal-image image-container">
+        <div class="vk-image image-container">
           <img src="./res/images/services/landscape.png" alt="" />
         </div>
-        <div class="vjkaal-text-content">
+        <div class="vk-text-content">
           <h3>LANDSCAPE</h3>
         </div>
       </div>
 
       <div class="gaming_assets">
-        <div class="vjkaal-image image-container">
+        <div class="vk-image image-container">
           <img src="./res/images/services/gaming-assets.png" alt="" />
         </div>
-        <div class="vjkaal-text-content">
+        <div class="vk-text-content">
           <h3>GAMING ASSETS</h3>
         </div>
       </div>
 
       <div class="medical_equips">
-        <div class="vjkaal-image image-container">
+        <div class="vk-image image-container">
           <img src="./res/images/services/medical.png" alt="" />
         </div>
-        <div class="vjkaal-text-content">
+        <div class="vk-text-content">
           <h3>MEDICAL EQUIPMENTS</h3>
         </div>
       </div>
       <div class="animation">
-        <div class="vjkaal-image image-container">
+        <div class="vk-image image-container">
           <img src="./res/images/services/animation.png" alt="" />
         </div>
-        <div class="vjkaal-text-content">
-          <h3>PRODUCT ANIMATIONS</h3>
+        <div class="vk-text-content">
+          <h3>PRODUCT ANIMATION</h3>
         </div>
       </div>
       <div class="modelling">
-        <div class="vjkaal-image image-container">
+        <div class="vk-image image-container">
           <img src="./res/images/services/modeling.png" alt="" />
         </div>
-        <div class="vjkaal-text-content">
+        <div class="vk-text-content">
           <h3>PRODUCT MODELLING</h3>
         </div>
       </div>
     </section>
 
     <section class="projects"></section>
+
+    <section class="about_us" id="about_us">
+
+      <!-- add organisation's vision and some team members profiles -->
+      <div class="our-vision">
+        <div class="vk-title">
+          <h1>OUR VISION</h1>
+        </div>
+        <div class="vk-text-content">
+          -- text content required --
+        </div>
+      </div>
+      
+      <div class="our-story">
+        <div class="vk-title">
+          <h1>OUR STORY</h1>
+        </div>
+        <div class="vk-text-content">
+          <p>
+            We started as a team of skilled professionals includes 3D artists, graphic designers, animators, and visual
+            effects experts who have made a name for themselves in their respective fields.
+            <br />
+            <br />
+            We use the latest software and technology to create realistic 3D models, animations, and renderings that bring
+            your ideas to life. We also offer graphic design services for branding, marketing, and web design, ensuring
+            that your business has a consistent and appealing visual identity.
+          </p>
+        </div>
+      </div>
+
+      <div class="our-team">
+        <div class="vk-title">
+          <h1>OUR TEAM</h1>
+        </div>
+        <div class="vk-text-content">
+          -- team members profiles required --
+        </div>
+      </div>
+    </section>
   </article>
 
 
-
-
   <footer>
-    <section class="contact_us">
+    <section class="contact_us" id="contact_us">
       <div class="lokesh_title">
         <h1>CONTACT US</h1>
       </div>
@@ -166,28 +202,15 @@
           <h3>Contact Number</h3>
         </div>
         <div class="lokesh_text-content">
-          <p> 9779361804</p>
+          <p>+91 9779361804</p>
         </div>
       </div>
     </section>
-    <hr>
-    <section class="about_us">
-      <div class="vjkaal-title">
-        <h1>OUR STORY</h1>
-      </div>
-      <div class="vjkaal-text-content">
-        <p>
-          We use the latest software and technology to create realistic 3D models, animations, and renderings that bring
-          your ideas to life. We also offer graphic design services for branding, marketing, and web design, ensuring
-          that your business has a consistent and appealing visual identity.
-          <br />
-          <br />
-          We use the latest software and technology to create realistic 3D models, animations, and renderings that bring
-          your ideas to life. We also offer graphic design services for branding, marketing, and web design, ensuring
-          that your business has a consistent and appealing visual identity.
-        </p>
-      </div>
+    
+    <section class="copy">
+      <p>&copy; copyright_year MAD3DSTUDIO</p>
     </section>
+    
   </footer>
 </body>
 

@@ -1,0 +1,18 @@
+article .about_us{
+  padding: 2.5rem 2rem;
+  text-align: center;
+}
+
+.about_us > div{
+  margin: 2.5rem 0;
+}
+
+section.about_us .vk-title{
+  color: var(--secondary);
+  font-size: calc(var(--fs-header) * 1.25);
+  padding-bottom: 1rem;
+}
+.about_us .vk-text-content{
+  word-spacing: .1rem;
+  font-size: var(--fs-medium);
+}
