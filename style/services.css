@@ -31,5 +31,10 @@ section.services{
 
 .services .image-container img{
   width: calc(var(--fs-header) * 3);
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+.services .vk-text-content{
+  padding: 1rem;
+  /* background-color: antiquewhite; */
 }

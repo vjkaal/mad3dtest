@@ -1,7 +1,8 @@
 article .intro {
   width: 100%;
-  min-height: calc(100vh - 3rem);
-  max-height: calc(100vh - 3rem);
+  min-height: calc(100vh);
+  max-height: calc(100vh);
+  padding-top: 10rem;
   text-align: center;
   display: flex;
   flex-flow: column nowrap;
