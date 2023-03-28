@@ -3,12 +3,12 @@ article .about_us{
   text-align: center;
 }
 
-section.about_us .vjkaal-title{
+section.about_us .vk-title{
   color: var(--secondary);
   font-size: calc(var(--fs-header) * 1.25);
   padding-bottom: 1rem;
 }
-.about_us .vjkaal-text-content{
+.about_us .vk-text-content{
   word-spacing: .1rem;
   font-size: var(--fs-medium);
 }
