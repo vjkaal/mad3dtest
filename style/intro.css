@@ -1,29 +1,20 @@
 article .intro {
   width: 100%;
-  min-height: calc(100vh);
-  max-height: calc(100vh);
+  min-height: calc(100vh - 3rem);
+  max-height: calc(100vh - 3rem);
   text-align: center;
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
 }
 
-.intro .lokesh_heading {
+article .lokesh_heading {
   margin: 0 1rem;
   font-size: calc(2 * var(--fs-header));
   font-family: var(--font1);
-  position: relative;
   /* uncommenting this creates unnecessary whitespace in the page */
   /* margin-bottom: 3rem; */
 }
-
-/* this code is commented in case if intro heading appears in front of menu */
-/* 
-.intro .lokesh_heading h1{
-  position: relative;
-  z-index: -1;
-  background-color: aqua;
-} */
 
 .intro .company_title {
   font-family: var(--font3);
@@ -31,23 +22,23 @@ article .intro {
   font-weight: bold;
 }
 
-article .company_title::before {
+.intro .company_title::before {
   content: "\a";
   white-space: pre;
 }
 
-article .intro .lokesh_capitalize {
+.intro .lokesh_capitalize {
   text-transform: uppercase;
 }
 
-article .intro .lokesh_text-content {
+.intro .lokesh_text-content {
   padding: 1rem 0;
   width: 80%;
   margin: 0 auto;
   color: var(--secondary);
 }
 
-article .para1,
-article .para2 {
+.intro .para1,
+.intro .para2 {
   margin-bottom: 1rem;
 }
