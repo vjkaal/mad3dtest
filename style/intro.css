@@ -1,32 +1,50 @@
-article .intro{
-    text-align:center;
-    background:var(--primary);
+article .intro {
+  text-align: center;
+  /* background: var(--primary); */
 }
-article .lokesh_heading{
-    margin:0 1rem;
-    font-size: var(--fs-header);
-    margin-bottom: 1rem;
-    font-family: var(--font1);
-    
-    
+article .lokesh_heading {
+  margin: 0 1rem;
+  font-size: calc(1.7 * var(--fs-header));
+  margin-bottom: 1rem;
+  font-family: var(--font1);
 }
-article .lokesh_text-content{
-    padding:1rem 0rem;
-    width:80%;
-    margin:0 auto 0 auto;
+
+.intro .company_title {
+  font-family: var(--font3);
+  font-size: calc(2.5 * var(--fs-header));
+  /* font-weight: 500; */
 }
-article .company_title{
-    font-family: 'Monoton', cursive;
-    font-weight: 500;
-    
+
+article .company_title::before{
+    content:"\a";
+    white-space: pre;
 }
+<<<<<<< HEAD
 article .company_title::before{
     content:"\a";
     white-space: pre;
 }
 article .lokesh_text-content{
     color:var(--secondary)
+=======
+
+article .intro .lokesh_heading {
+  font-weight: bold;
 }
-article .para1,article .para2{
-    margin-bottom: 1rem;
+
+article .intro .lokesh_capitalize {
+  text-transform: uppercase;
+}
+
+article .intro .lokesh_text-content {
+  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto;
+  color: var(--secondary);
+}
+
+article .para1,
+article .para2 {
+  margin-bottom: 1rem;
+>>>>>>> 97e7768a20743c3affe0a4d10a3c5d99150b91e3
 }
