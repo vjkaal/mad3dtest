@@ -3,11 +3,11 @@ footer{
   background: var(--secondary);
 }
 
-footer .about_us,footer .contact_us{
+footer .contact_us{
   padding: 2rem 1rem;
 }
 
-footer .vjkaal-title,footer .lokesh_title{
+footer .lokesh_title{
   color: var(--primary);
   padding-bottom: 1rem;
 }
@@ -17,7 +17,7 @@ footer .lokesh_heading{
   padding: 1rem 0;
 }
 
-footer .vjkaal-text-content,footer .lokesh_text-content{
+footer .lokesh_text-content{
   color: var(--accent);
 }
 hr

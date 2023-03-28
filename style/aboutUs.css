@@ -1,0 +1,14 @@
+article .about_us{
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+section.about_us .vjkaal-title{
+  color: var(--secondary);
+  font-size: calc(var(--fs-header) * 1.25);
+  padding-bottom: 1rem;
+}
+.about_us .vjkaal-text-content{
+  word-spacing: .1rem;
+  font-size: var(--fs-medium);
+}
