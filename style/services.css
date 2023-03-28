@@ -1,6 +1,10 @@
 section.services{
   max-width: 100%;
   min-width: 100%;
+  min-height: 60%;
+  max-height: 60%;
+  padding-top: 5rem;
+  /* background-color: aqua; */
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -10,6 +14,7 @@ section.services{
 
 .services > div{
   padding: .5rem 0;
+  margin: .25rem;
   /* background: aqua; */
   /* margin: 1rem 0; */
   width: 45%;
@@ -19,7 +24,7 @@ section.services{
 }
 .services > div:hover{
   cursor: pointer;
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   scale: 110%;
   /* box-shadow: 0 0 .4rem var(--secondary); */
 }
