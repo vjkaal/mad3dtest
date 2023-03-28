@@ -7,6 +7,9 @@ header {
   color: var(--secondary);
   font-family: var(--font1);
   font-weight: 500;
+  background: transparent;
+  position: fixed;
+  z-index: 9;
 }
 
 header .left {

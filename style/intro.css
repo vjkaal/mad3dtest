@@ -8,13 +8,22 @@ article .intro {
   justify-content: space-evenly;
 }
 
-article .lokesh_heading {
+.intro .lokesh_heading {
   margin: 0 1rem;
   font-size: calc(2 * var(--fs-header));
   font-family: var(--font1);
+  position: relative;
   /* uncommenting this creates unnecessary whitespace in the page */
   /* margin-bottom: 3rem; */
 }
+
+/* this code is commented in case if intro heading appears in front of menu */
+/* 
+.intro .lokesh_heading h1{
+  position: relative;
+  z-index: -1;
+  background-color: aqua;
+} */
 
 .intro .company_title {
   font-family: var(--font3);
