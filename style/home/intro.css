@@ -38,8 +38,3 @@ article .lokesh_heading {
   margin: 0 auto;
   color: var(--secondary);
 }
-
-.intro .para1,
-.intro .para2 {
-  margin-bottom: 1rem;
-}
