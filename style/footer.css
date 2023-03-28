@@ -1,32 +1,27 @@
-footer{
+footer {
   text-align: center;
   background: var(--secondary);
 }
 
-footer .contact_us{
+footer .contact_us {
   padding: 2rem 1rem;
 }
 
-footer .lokesh_title{
+footer .lokesh_title {
   color: var(--primary);
   padding-bottom: 1rem;
 }
 
-footer .lokesh_heading{
+footer .lokesh_heading {
   color: var(--primary);
   padding: 1rem 0;
 }
 
-footer .lokesh_text-content{
+footer .lokesh_text-content {
   color: var(--accent);
 }
-hr
-{ 
-    border-style: dotted none none;
-    border-width: 0.3rem;
-    border-color: grey;
-    height:0px;
-    width:50%;
-   margin:0 auto 0 auto;
 
+footer .copy{
+  color: var(--primary);
+  padding: 1rem;
 }
