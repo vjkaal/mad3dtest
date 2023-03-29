@@ -19,6 +19,11 @@
   margin: 1rem 0;
 }
 
+.projects .content .link{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
 .projects .content .link .image-container img {
   width: 90%;
 }

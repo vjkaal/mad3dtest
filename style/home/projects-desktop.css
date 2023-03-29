@@ -26,8 +26,9 @@
 .projects .link{
   display: flex;
   flex-flow: row nowrap;
+  text-decoration: none;
+  color: var(--secondary);
 }
-
 /* .projects .content > div:hover { */
   /* scale: 105%;
   width: 95%; */
