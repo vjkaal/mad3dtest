@@ -44,6 +44,12 @@
   margin: 1rem 1.5rem;
   z-index: 3;
 }
+.projects .content .link .image-container_1 img {
+  
+  width: 60vw;
+  margin: 1rem 1.5rem;
+  z-index: 3;
+}
 
 .projects .content .text-container {
   padding: 1rem 5rem;
