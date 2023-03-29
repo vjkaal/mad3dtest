@@ -8,3 +8,4 @@
 @import "./projects.css" only screen and (max-width: 50rem);
 
 @import './header-desktop.css'  only screen and (min-width: 50rem);
+@import './services-desktop.css'  only screen and (min-width: 50rem);
