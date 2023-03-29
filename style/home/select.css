@@ -1,0 +1,11 @@
+@import './intro.css';
+@import './aboutUs.css';
+@import './footer.css';
+
+@import "./header.css" only screen and (max-width: 50rem);
+@import "./navToggle.css" only screen and (max-width: 50rem);
+@import "./services.css" only screen and (max-width: 50rem);
+@import "./projects.css" only screen and (max-width: 50rem);
+
+@import './header-desktop.css'  only screen and (min-width: 50rem);
+@import './services-desktop.css'  only screen and (min-width: 50rem);
