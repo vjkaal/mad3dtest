@@ -3,7 +3,7 @@ section.services{
   min-width: 100%;
   min-height: fit-content;
   max-height: fit-content;
-  padding: 3rem 0;
+  padding: 5rem 0;
   /* background-color: aqua; */
   display: flex;
   flex-flow: row wrap;
