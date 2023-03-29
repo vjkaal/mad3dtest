@@ -1,0 +1,29 @@
+footer {
+  text-align: center;
+  background: var(--secondary);
+}
+
+footer .contact_us {
+  padding: 5rem 1rem;
+}
+
+footer .lokesh_title {
+  color: var(--primary);
+  padding-bottom: 1rem;
+  font-size: var(--fs-header);
+}
+
+footer .lokesh_heading {
+  color: var(--primary);
+  font-size: var(--fs-large);
+  padding: 1rem 0;
+}
+
+footer .lokesh_text-content {
+  color: var(--accent);
+}
+
+footer .copy{
+  color: var(--primary);
+  padding: 1rem;
+}
