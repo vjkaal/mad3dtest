@@ -1,0 +1,67 @@
+.projects {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: fit-content;
+  max-height: fit-content;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.projects .vk-title {
+  color: var(--secondary);
+  font-size: calc(var(--fs-header) * 2);
+  padding-bottom: 1rem;
+}
+
+.projects .content > div {
+  /* this comment is for testing purpose */
+  /* background: aqua; */
+  min-width: 100%;
+  max-width: 100%;
+  /* padding: 1rem; */
+  /* margin: 1rem 0; */
+  /* transition: scale 300ms ease-in-out; */
+}
+
+.projects .link{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+/* .projects .content > div:hover { */
+  /* scale: 105%;
+  width: 95%; */
+
+  /* height: 105%; */
+  /* height: 80%; */
+  /* padding: 1rem 0 1.1vh 0;
+  margin: 0 auto; */
+/* } */
+
+.projects .content .link .image-container img {
+  width: 60vw;
+  margin: 1rem 1.5rem;
+  z-index: 3;
+}
+
+.projects .content .text-container {
+  padding: 1rem 5rem;
+  margin: auto;
+  z-index: 4;
+}
+
+.projects .content .vk-heading{
+  font-size: calc(1.5 * var(--fs-header));
+  font-weight: bold;
+}
+
+.projects .content .text-container .vk-text-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+
+  /* line-height: 1.5rem;
+  max-height: calc(1.5rem * 3); */
+}

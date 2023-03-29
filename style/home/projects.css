@@ -14,21 +14,9 @@
 }
 
 .projects .content > div {
-  /* this comment is for testing purpose */
   /* background: aqua; */
   padding: 1rem;
   margin: 1rem 0;
-  transition: scale 300ms ease-in-out;
-}
-
-.projects .content > div:hover {
-  scale: 105%;
-  width: 95%;
-
-  /* height: 105%; */
-  /* height: 80%; */
-  padding: 1rem 0 1.1vh 0;
-  margin: 0 auto;
 }
 
 .projects .content .link .image-container img {
