@@ -1,0 +1,16 @@
+.projects{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: fit-content;
+  max-height: fit-content;
+  text-align: center;
+}
+
+.projects .vk-heading{
+  font-size: var(--fs-header);
+  font-family: var(--font3);
+}
+
+.projects .link .image-container img{
+  width: 90%;
+}
