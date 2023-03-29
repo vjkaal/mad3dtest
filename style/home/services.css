@@ -1,15 +1,15 @@
 section.services{
   max-width: 100%;
   min-width: 100%;
-  min-height: 80vh;
-  max-height: 80vh;
-  padding: 10rem 0;
+  min-height: fit-content;
+  max-height: fit-content;
+  padding: 3rem 0;
   /* background-color: aqua; */
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
 }
 
 .services > div{
