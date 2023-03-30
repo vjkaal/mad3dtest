@@ -21,9 +21,14 @@ section.services{
   /* border-radius: .5rem; */
 }
 
+.services .image-container img{
+  width: calc(var(--fs-header) * 3);
+  transition: scale 400ms;
+  /* border: 1px solid black; */
+}
+
 .services .vk-text-content{
   padding: 1rem;
-  color: var(--accent);
 }
 
 .services .m-right-border{
