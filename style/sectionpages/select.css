@@ -9,3 +9,5 @@
 @import './../home/services-desktop.css'  only screen and (min-width: 50rem);
 @import "./../home/projects-desktop.css" only screen and (min-width: 50rem);
 @import './../header-footer/header-desktop.css'  only screen and (min-width: 50rem);
+@import './../sectionpages/architecture-desktop.css'  only screen and (min-width: 50rem);
+
