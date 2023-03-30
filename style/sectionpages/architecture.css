@@ -22,10 +22,6 @@
   font-size: var(--fs-medium);
 }
 
-.portfolio_images .card:focus{
-  box-shadow: 0 0 1rem var(--secondary);
-}
-
 .portfolio_images .image-container{
   min-width: inherit;
   max-width: inherit;
@@ -53,7 +49,6 @@
   position: absolute;
   top: 0;
   z-index: 4;
-  display: none;
 }
 
 .portfolio_images .card-text-container .vk-heading{
