@@ -29,6 +29,13 @@
   text-decoration: none;
   color: var(--secondary);
 }
+.projects .link1{
+  display: flex;
+  flex-flow: row-reverse nowrap;
+
+  text-decoration: none;
+  color: var(--secondary);
+}
 /* .projects .content > div:hover { */
   /* scale: 105%;
   width: 95%; */
@@ -39,7 +46,7 @@
   margin: 0 auto; */
 /* } */
 
-.projects .content .link .image-container img {
+.projects .content .image-container img{
   width: 60vw;
   margin: 1rem 1.5rem;
   z-index: 3;
