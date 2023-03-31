@@ -64,6 +64,7 @@
   font-weight: bold;
   line-height: 3.5rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.14rem;
 }
 
 .projects .content .text-container .vk-text-content {
@@ -72,6 +73,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  letter-spacing: 0.16rem;
 
   /* line-height: 1.5rem;
   max-height: calc(1.5rem * 3); */
