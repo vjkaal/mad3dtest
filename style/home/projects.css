@@ -31,14 +31,18 @@
 .projects .content .text-container {
   padding: 1rem 0.5rem;
 }
+.projects .content .vk-heading{
+  letter-spacing: 0.12rem;
+  line-height: 2rem;
 
+}
 .projects .content .text-container .vk-text-content {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-
+  letter-spacing: 0.11rem;
   /* line-height: 1.5rem;
   max-height: calc(1.5rem * 3); */
 }
