@@ -70,3 +70,6 @@ header .right .nav {
 .nav-link-container:hover a {
   color: var(--primary);
 }
+.mulhead{
+  text-transform: capitalize;
+}

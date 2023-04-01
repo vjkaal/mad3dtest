@@ -64,3 +64,6 @@ header .left .logo-default {
 .nav-toggle-label {
   display: none;
 }
+.mulhead{
+  text-transform:capitalize;
+}
