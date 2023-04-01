@@ -20,7 +20,7 @@ article .lokesh_heading {
 .intro .company_title {
   font-family: var(--font3);
   font-size: calc(2.5 * var(--fs-header));
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .intro .company_title::before {
