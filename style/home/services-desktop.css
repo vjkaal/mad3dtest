@@ -53,6 +53,5 @@ section.services{
 .services .cur_text{
   color: var(--secondary);
   scale: 105%;
-  text-decoration: underline;
   
 }

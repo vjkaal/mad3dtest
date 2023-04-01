@@ -9,8 +9,9 @@
 .portfolio_images .vk-title{
   color: var(--secondary);
   text-transform: capitalize;
-  font-size: var(--fs-header);
-  padding-top: .5rem;
+  font-size: calc(1.25 * var(--fs-header));
+  padding-top: 2rem;
+  font-family: var(--font3);
 }
 
 .portfolio_images .card{
