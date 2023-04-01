@@ -6,6 +6,13 @@
   text-align: center;
 }
 
+.portfolio_images .vk-title{
+  color: var(--secondary);
+  text-transform: capitalize;
+  font-size: var(--fs-header);
+  padding-top: .5rem;
+}
+
 .portfolio_images .card{
   min-width: 90vw;
   max-width: 90vw;
