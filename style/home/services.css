@@ -30,11 +30,3 @@ section.services{
 .services .vk-text-content{
   padding: 1rem;
 }
-
-.services .m-right-border{
-  border-right: 1px solid var(--secondary);
-}
-
-.services .m-bottom-border{
-  border-bottom: 1px solid var(--secondary);
-}

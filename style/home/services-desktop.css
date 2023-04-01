@@ -45,7 +45,3 @@ section.services{
   color: var(--secondary);
   scale: 105%;
 }
-
-.services .d-right-border{
-  border-right: 1px solid var(--secondary);
-}
