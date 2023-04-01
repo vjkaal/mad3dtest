@@ -4,7 +4,7 @@ footer {
 }
 
 footer .contact_us {
-  padding: 5rem 1rem;
+  padding: 3rem 1rem;
 }
 
 footer .lokesh_title {
@@ -13,17 +13,39 @@ footer .lokesh_title {
   font-size: var(--fs-header);
 }
 
-footer .lokesh_heading {
-  color: var(--primary);
-  font-size: var(--fs-large);
-  padding: 1rem 0;
+footer .lokesh_address, footer .lokesh_email, footer .lokesh_contact{
+  /* background: green; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
-footer .lokesh_text-content {
+footer .lokesh_email img, footer .lokesh_contact img{
+  /* background-color: aqua; */
+  /* margin-top: 1rem; */
+  width: var(--fs-header);
+}
+.lokesh_text-content{
+  /* background-color: aqua; */
   color: var(--accent);
+  padding-left: .5rem;
 }
 
 footer .copy{
   color: var(--primary);
   padding: 1rem;
+}
+
+@media screen and (min-width: 50rem){
+  footer .contact_us{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .contact_us a:hover span{
+    /* background: aqua; */
+    color: var(--primary);
+  }
 }
