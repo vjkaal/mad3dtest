@@ -45,3 +45,14 @@ section.services{
   color: var(--secondary);
   scale: 105%;
 }
+
+.services .current{
+  scale: 110%;
+}
+
+.services .cur_text{
+  color: var(--secondary);
+  scale: 105%;
+  text-decoration: underline;
+  
+}
