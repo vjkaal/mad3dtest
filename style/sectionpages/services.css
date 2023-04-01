@@ -21,12 +21,12 @@ section.services{
 
 article .services .image-container{
   width: fit-content;
+  padding: 0 .5rem;
 }
 
 article .services .image-container img{
-  width: calc(12vw);
+  width: calc(10vw);
   opacity: .7;
-  padding: 0 .1rem;
 }
 
 article .services .image-container .current{
