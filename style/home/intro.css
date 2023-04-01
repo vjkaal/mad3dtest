@@ -7,6 +7,11 @@ article .intro {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
+  background-image: url("./../../res/images/Landscape/Landscape/R_03\ copy.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  
 }
 
 article .lokesh_heading {
