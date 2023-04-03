@@ -34,11 +34,12 @@ footer .lokesh_email img, footer .lokesh_contact img{
 footer .copy{
   color: var(--primary);
   padding: 1rem;
-  width: fit-content;
+  width: 100%;
 }
 
 footer .copy .first::after{
   content: "\a";
+  white-space: pre;
 }
 
 
@@ -53,5 +54,9 @@ footer .copy .first::after{
   footer .contact_us a:hover span{
     /* background: aqua; */
     color: var(--primary);
+  }
+
+  footer .copy .first::after{
+    all:unset;
   }
 }
