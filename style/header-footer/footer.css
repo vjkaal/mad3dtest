@@ -37,6 +37,10 @@ footer .copy{
   width: fit-content;
 }
 
+footer .copy .first::after{
+  content: "\a";
+}
+
 
 @media screen and (min-width: 50rem){
   footer .contact_us{

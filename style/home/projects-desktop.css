@@ -49,6 +49,7 @@
 
 .projects .content .image-container img{
   width: 60vw;
+  height: 40vw;
   margin: 1rem 1.5rem;
   z-index: 3;
 }

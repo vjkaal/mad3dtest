@@ -7,16 +7,17 @@ article .intro {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
-  background-image: url("./../../res/images/Landscape/Landscape/R_03\ copy.jpg");
+  background-image: url("./../../res/images//test/intro.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   position: relative;
-  
+  color: var(--primary);
 }
 
 article .lokesh_heading {
   margin: 0 1rem;
-  font-size: calc(2 * var(--fs-header));
+  font-size: calc(4 * var(--fs-header));
   font-family: var(--font1);
   /* uncommenting this creates unnecessary whitespace in the page */
   /* margin-bottom: 3rem; */
@@ -24,7 +25,7 @@ article .lokesh_heading {
 
 .intro .company_title {
   font-family: var(--font3);
-  font-size: calc(2.5 * var(--fs-header));
+  font-size: calc(4 * var(--fs-header));
   /* font-weight: bold; */
 }
 
@@ -41,5 +42,6 @@ article .lokesh_heading {
   padding: 1rem 0;
   width: 80%;
   margin: 0 auto;
-  color: var(--secondary);
+  font-size: var(--fs-large);
+  color: var(--primary);
 }
