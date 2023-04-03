@@ -34,7 +34,9 @@ footer .lokesh_email img, footer .lokesh_contact img{
 footer .copy{
   color: var(--primary);
   padding: 1rem;
+  width: fit-content;
 }
+
 
 @media screen and (min-width: 50rem){
   footer .contact_us{
