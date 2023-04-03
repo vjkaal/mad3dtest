@@ -50,7 +50,7 @@ section.services{
   scale: 110%;
 }
 
-.services .cur_text{
+.services .curr_text{
   color: var(--secondary);
   scale: 105%;
 }
