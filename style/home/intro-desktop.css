@@ -1,5 +1,6 @@
 article .intro {
-  width: 100%;
+  min-width: 100vw;
+  max-width: 100vw;
   min-height: calc(100vh);
   max-height: calc(100vh);
   padding-top: 10rem;
