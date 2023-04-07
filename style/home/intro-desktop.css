@@ -25,7 +25,7 @@ article .lokesh_heading {
   /* background: aqua; */
   min-width: 100%;
   max-width: 100%;
-  margin: 5vw 0;
+  /* margin: 5vw 0 2vw 0; */
   font-size: calc(3 * var(--fs-header));
   font-family: var(--font1);
   /* uncommenting this creates unnecessary whitespace in the page */
