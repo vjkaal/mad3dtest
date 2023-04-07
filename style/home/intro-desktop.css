@@ -47,6 +47,6 @@ article .lokesh_heading {
   padding: 1rem 0;
   width: 80%;
   margin: 0 auto;
-  font-size: calc(var(--fs-large) * 1.2);
+  font-size: calc(var(--fs-large) * 1.7);
   color: var(--primary);
 }
