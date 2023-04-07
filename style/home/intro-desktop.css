@@ -10,6 +10,7 @@ article .intro {
 
   padding-top: 10rem;
   text-align: center;
+  /* linear gradient is used to make the image darker */
   background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("./../../res/images//test/intro.jpg");
   /* background-image: url("./../../res/images//test/intro.jpg"); */
   background-position: center;
