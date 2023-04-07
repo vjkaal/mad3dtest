@@ -3,21 +3,25 @@ article .intro {
   max-width: 100vw;
   min-height: calc(100vh);
   max-height: calc(100vh);
+
   padding-top: 10rem;
   text-align: center;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-evenly;
   background-image: url("./../../res/images//test/intro.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
   color: var(--primary);
+
+  /* failed: made all things dark */
+  /* filter: brightness(50%); */
 }
 
 article .lokesh_heading {
-  margin: 0 1rem;
+  /* background: aqua; */
+  min-width: 100%;
+  max-width: 100%;
+  margin: 10vw 0;
   font-size: calc(4 * var(--fs-header));
   font-family: var(--font1);
   /* uncommenting this creates unnecessary whitespace in the page */
@@ -43,6 +47,6 @@ article .lokesh_heading {
   padding: 1rem 0;
   width: 80%;
   margin: 0 auto;
-  font-size: var(--fs-large);
+  font-size: calc(var(--fs-large) * 1.2);
   color: var(--primary);
 }
