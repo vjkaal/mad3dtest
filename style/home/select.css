@@ -11,3 +11,6 @@
 @import './../header-footer/header-desktop.css' only screen and (min-width: 50rem);
 @import './services-desktop.css'  only screen and (min-width: 50rem);
 @import "./projects-desktop.css" only screen and (min-width: 50rem);
+/*mobile <=40
+  >48=tablet<=80
+  desktop>=80 */
