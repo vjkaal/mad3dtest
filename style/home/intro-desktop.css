@@ -4,6 +4,10 @@ article .intro {
   min-height: calc(100vh);
   max-height: calc(100vh);
 
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+
   padding-top: 10rem;
   text-align: center;
   background-image: url("./../../res/images//test/intro.jpg");
@@ -21,8 +25,8 @@ article .lokesh_heading {
   /* background: aqua; */
   min-width: 100%;
   max-width: 100%;
-  margin: 5vw 0 10vw 0;
-  font-size: calc(3.5 * var(--fs-header));
+  margin: 5vw 0;
+  font-size: calc(3 * var(--fs-header));
   font-family: var(--font1);
   /* uncommenting this creates unnecessary whitespace in the page */
   /* margin-bottom: 3rem; */
@@ -30,7 +34,7 @@ article .lokesh_heading {
 
 .intro .company_title {
   font-family: var(--font3);
-  font-size: calc(5 * var(--fs-header));
+  font-size: calc(4.5 * var(--fs-header));
   /* font-weight: bold; */
 }
 
@@ -47,6 +51,6 @@ article .lokesh_heading {
   padding: 1rem 0;
   width: 80%;
   margin: 0 auto;
-  font-size: calc(var(--fs-large) * 1.2);
+  font-size: calc(var(--fs-large) * 1.3);
   color: var(--primary);
 }
