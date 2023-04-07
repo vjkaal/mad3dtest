@@ -21,8 +21,8 @@ article .lokesh_heading {
   /* background: aqua; */
   min-width: 100%;
   max-width: 100%;
-  margin: 10vw 0;
-  font-size: calc(4 * var(--fs-header));
+  margin: 5vw 0 10vw 0;
+  font-size: calc(3.5 * var(--fs-header));
   font-family: var(--font1);
   /* uncommenting this creates unnecessary whitespace in the page */
   /* margin-bottom: 3rem; */
@@ -30,7 +30,7 @@ article .lokesh_heading {
 
 .intro .company_title {
   font-family: var(--font3);
-  font-size: calc(4 * var(--fs-header));
+  font-size: calc(5 * var(--fs-header));
   /* font-weight: bold; */
 }
 
