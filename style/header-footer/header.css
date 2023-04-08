@@ -12,11 +12,28 @@ header {
 }
 
 header .left {
-  padding: 1rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  padding: 0 1rem;
+
+  /* line height is used to vertically center header */
+  line-height: 3rem;
+
+  /* just for testing */
+  /* margin: auto; */
+  /* background: antiquewhite; */
 }
 
 header .left .logo {
+  min-height: var(--fs-header);
+  max-height: var(--fs-header);
   font-size: var(--fs-header);
+  
+  
+  /* just for testing */
+  /* margin-top: auto; */
+  /* display: block; */
+  /* background: aqua; */
 }
 
 header .left .logo-menu{
@@ -24,15 +41,15 @@ header .left .logo-menu{
 }
 
 header .right .nav {
-  /* dont uncomment following 2 lines code breaks the drop down menu */
+  /* absolute position of nav to set it in one place in page ease of hiding/showing */
   position: absolute;
-  /* top: 3rem; */
   
   width: 100%;
   text-align: right;
   padding: 1rem;
-  /* margin top is necessary to avoid the menu from going down a bit and breaking nice look */
-  margin-top: -0.5rem;
+  /* margin top is removed coz it broke  */
+  /* top: 3rem; */
+  /* margin-top: -0.4rem; */
 
   background-color: var(--secondary);
   /* following 2 lines are not rqd but may be needed to make design a bit more stupid */
@@ -64,12 +81,11 @@ header .right .nav {
 
 .nav-link-container a {
   text-decoration: none;
-  color: var(--accent);
+  color: var(--primary);
+  filter: brightness(70%);
 }
 
-.nav-link-container:hover a {
+/* not reqd for mobile version */
+/* .nav-link-container:hover a {
   color: var(--primary);
-}
-.mulhead{
-  text-transform: capitalize;
-}
+} */
