@@ -51,7 +51,8 @@
   min-height: 60vw;
   max-height: 60vw;
   opacity: 0.7;
-  background: var(--accent);
+  color: var(--primary);
+  filter: brightness(70%);
   padding: 1rem 0;
   /* margin: auto 5vw; */
   position: absolute;

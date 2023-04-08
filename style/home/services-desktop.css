@@ -36,7 +36,8 @@ section.services{
 
 .services .vk-text-content{
   padding: 1rem;
-  color: var(--accent);
+  color: var(--primary);
+  filter: brightness(70%);
   transition: color 400ms, scale 200ms ease-in;
   /* background-color: antiquewhite; */
 }
