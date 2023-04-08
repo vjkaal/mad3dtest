@@ -26,6 +26,22 @@
   font-size: var(--fs-medium);
   cursor: pointer;
 }
+.portfolio_images .card{
+  min-width: 30vw;
+  max-width: 30vw;
+  min-height: 18vw;
+  max-height: 18vw;
+  /* background: aqua; */
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 0;
+  margin: 1rem;
+  position: relative;
+  border: 0;
+  font-family: var(--font1);
+  font-size: var(--fs-medium);
+  cursor: pointer;
+}
 
 .portfolio_images .image-container{
   min-width: inherit;
@@ -34,8 +50,21 @@
   max-height: inherit;
   z-index: 3;
 }
+.portfolio_images .video-container{
+  min-width: inherit;
+  max-width: inherit;
+  min-height: inherit;
+  max-height: inherit;
+  z-index: 3;
+}
 
 .portfolio_images .image-container img{
+  min-width: inherit;
+  max-width: inherit;
+  min-height: inherit;
+  max-height: inherit;
+}
+.portfolio_images .video-container video{
   min-width: inherit;
   max-width: inherit;
   min-height: inherit;
