@@ -29,6 +29,7 @@ footer .lokesh_email img, footer .lokesh_contact img{
   /* background-color: aqua; */
   color: var(--accent);
   padding-left: .5rem;
+  color: var(--primary);
 }
 
 footer .copy{
