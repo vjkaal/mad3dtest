@@ -12,7 +12,7 @@ section.services{
   /* margin: 1rem 0; */
 }
 
-.services > div{
+.services > div:not(.dropdown-content){
   padding-top: 2rem;
   /* background: aqua; */
   /* margin: 1rem 0; */
