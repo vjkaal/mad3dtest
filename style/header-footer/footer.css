@@ -30,6 +30,7 @@ footer .lokesh_email img, footer .lokesh_contact img{
   color: var(--primary);
   filter: brightness(70%);
   padding-left: .5rem;
+  color: var(--primary);
 }
 
 footer .copy{
