@@ -14,6 +14,7 @@
   background-color: transparent;
   color: var(--secondary);
   
+  /* don't change font distorts nav menu */
   font-family: var(--font1);
   font-size: var(--fs-normal);
   text-transform: uppercase;
