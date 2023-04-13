@@ -104,3 +104,12 @@
   /* line-height: 1.5rem;
   max-height: calc(1.5rem * 3); */
 }
+.services .current{
+  cursor: pointer;
+  background-color: var(--primary);
+  scale: 120%;
+  
+}
+.services .current_text{
+  text-decoration: solid;
+}
