@@ -24,7 +24,7 @@ section.services{
 .services .image-container img:not(.current){
   width: calc(var(--fs-header) * 3);
   transition: scale 400ms;
-  filter: blur(.1rem);
+  filter: blur(.08rem);
   /* border: 1px solid black; */
 }
 
