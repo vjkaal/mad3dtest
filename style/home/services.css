@@ -12,13 +12,17 @@ section.services{
   /* margin: 1rem 0; */
 }
 
-.services > div{
+.services > div:not(.dropdown-content){
   padding-top: 2rem;
   /* background: aqua; */
   /* margin: 1rem 0; */
   width: 50%;
   text-align: center;
   /* border-radius: .5rem; */
+}
+
+.services .dropdown-content{
+  padding-top: .3rem;
 }
 
 .services .image-container img{
