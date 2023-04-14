@@ -12,7 +12,7 @@ section.services{
   /* margin: 1rem 0; */
 }
 
-.services > div{
+.services > div:not(.dropdown-content){
   padding-top: 2rem;
   /* background: aqua; */
   /* margin: 1rem 0; */
@@ -21,22 +21,25 @@ section.services{
   /* border-radius: .5rem; */
 }
 
-.services .image-container img{
+.services .image-container img:not(.current){
   width: calc(var(--fs-header) * 3);
   transition: scale 400ms;
+  filter: blur(.08rem);
   /* border: 1px solid black; */
 }
 
-.services > div:hover img{
+.services > div:hover img:not(.current){
   cursor: pointer;
   /* background-color: var(--primary); */
   scale: 110%;
+  filter: blur(0);
   /* box-shadow: 0 0 .4rem var(--secondary); */
 }
 
 .services .vk-text-content{
   padding: 1rem;
-  color: var(--accent);
+  color: var(--primary);
+  filter: brightness(70%);
   transition: color 400ms, scale 200ms ease-in;
   /* background-color: antiquewhite; */
 }
@@ -47,10 +50,17 @@ section.services{
 }
 
 .services .current{
+  width: calc(var(--fs-header) * 3);
   scale: 110%;
+  /* background: aqua; */
+  filter: unset;
 }
 
 .services .curr_text{
   color: var(--secondary);
   scale: 105%;
+}
+
+.mulhead{
+  color: var(--secondary);
 }

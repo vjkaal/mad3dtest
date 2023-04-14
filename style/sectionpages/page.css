@@ -37,8 +37,21 @@
   max-height: inherit;
   z-index: 3;
 }
+.portfolio_images .video-container{
+  min-width: inherit;
+  max-width: inherit;
+  min-height: inherit;
+  max-height: inherit;
+  z-index: 3;
+}
 
 .portfolio_images .image-container img{
+  min-width: inherit;
+  max-width: inherit;
+  min-height: inherit;
+  max-height: inherit;
+}
+.portfolio_images .video-container video{
   min-width: inherit;
   max-width: inherit;
   min-height: inherit;
@@ -51,7 +64,8 @@
   min-height: 60vw;
   max-height: 60vw;
   opacity: 0.7;
-  background: var(--accent);
+  color: var(--primary);
+  filter: brightness(70%);
   padding: 1rem 0;
   /* margin: auto 5vw; */
   position: absolute;

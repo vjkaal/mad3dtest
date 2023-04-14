@@ -47,7 +47,7 @@ header .left .logo-default {
   transition: scale 100ms ease-in-out;
 }
 
-.nav-link-container:hover{
+.nav-link-container:not(.dropdown):hover{
   scale: 110%;
 }
 

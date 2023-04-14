@@ -37,3 +37,6 @@ article .services .image-container .current{
 article .services .vk-text-content{
   display: none;
 }
+.mulhead{
+  text-transform: capitalize;
+}

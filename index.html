@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="./style/master.css">
   <link rel="stylesheet" href="./style/home/select.css">
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 
 <body>
@@ -32,8 +37,16 @@
           <div class="home nav-link-container">
             <a href="./index.html#intro">HOME</a>
           </div>
-          <div class="services nav-link-container">
-            <a href="./index.html#services">SERVICES</a>
+          <div class="services dropdown nav-link-container">
+            <button class="dropbtn" onclick="toggleDropDown()">Services</button>
+              <div class="dropdown-content">
+                <a href="./interior.html">interior design</a>
+                <a href="./exterior.html">exterior design</a>
+                <a href="./gaming.html">gaming assets</a>
+                <a href="./medical.html">medical equipments</a>
+                <a href="./animation.html">animation</a>
+                <a href="./modeling.html">modeling</a>
+              </div>
           </div>
           <div class="portfolio nav-link-container">
             <a href="./interior.html">PORTFOLIO</a>
@@ -57,36 +70,35 @@
       contact + about
      -->
     <section class="intro" id="intro">
-      <div class="lokesh_heading">
+      <div class="lokesh_heading tba animate__animated animate__slideInLeft">
         <h1>We are
           <span class="company_title lokesh_capitalize">Mad3D Studio</span>
         </h1>
       </div>
-      <div class="lokesh_description lokesh_text-content">
+      <div class="lokesh_text-content animate__animated animate__zoomIn animate__delay-1s animate__faster">
         <p>
-          Welcome to our 3D and Graphic Design company! We specialize in providing high-quality visual solutions
-          for various industries, such as gaming, film, architecture, product design, and advertising.
+          “From imagination to creation, we bring your ideas to life.”
         </p>
       </div>
     </section>
 
-    <section class="services" id="services">
-      <div class="interior">
+    <section class="services tba animate__animated animate__fadeInLeft" id="services">
+      <div class="interior homepage-services">
         <a href="./interior.html">
           <div class="vk-image image-container">
-            <img src="./res/images/services/architecture.png" alt="" />
+            <img class="current" src="./res/images/services/architecture.png" alt="" />
           </div>
           <div class="vk-text-content">
-            <h3 class="mulhead">Interior Design</h3>
+            <h3 class="mulhead">interior design</h3>
           </div>
         </a>
       </div>
 
-      <div class="exterior">
+      <div class="exterior homepage-services">
         <a href="./exterior.html">
 
           <div class="vk-image image-container">
-            <img src="./res/images/services/landscape.png" alt="" />
+            <img class="current" src="./res/images/services/landscape.png" alt="" />
           </div>
           <div class="vk-text-content">
             <h3 class="mulhead">Exterior Design</h3>
@@ -94,11 +106,11 @@
         </a>
       </div>
 
-      <div class="gaming_assets">
+      <div class="gaming_assets homepage-services">
         <a href="./gaming.html">
 
           <div class="vk-image image-container">
-            <img src="./res/images/services/gaming-assets.png" alt="" />
+            <img class="current" src="./res/images/services/gaming-assets.png" alt="" />
           </div>
           <div class="vk-text-content">
             <h3 class="mulhead">gaming assets</h3>
@@ -106,11 +118,11 @@
         </a>
       </div>
 
-      <div class="medical_equips">
+      <div class="medical_equips homepage-services">
         <a href="./medical.html">
 
           <div class="vk-image image-container">
-            <img src="./res/images/services/medical.png" alt="" />
+            <img class="current" src="./res/images/services/medical.png" alt="" />
           </div>
           <div class="vk-text-content">
             <h3 class="mulhead">medical equipments</h3>
@@ -118,11 +130,11 @@
         </a>
       </div>
 
-      <div class="animation">
+      <div class="animation homepage-services">
         <a href="./animation.html">
 
           <div class="vk-image image-container">
-            <img src="./res/images/services/animation.png" alt="" />
+            <img class="current" src="./res/images/services/animation.png" alt="" />
           </div>
           <div class="vk-text-content">
             <h3 class="mulhead">product animation</h3>
@@ -130,11 +142,11 @@
         </a>
       </div>
 
-      <div class="modelling">
+      <div class="modelling homepage-services">
         <a href="./modeling.html">
 
           <div class="vk-image image-container">
-            <img src="./res/images/services/modeling.png" alt="" />
+            <img class="current" src="./res/images/services/modeling.png" alt="" />
           </div>
           <div class="vk-text-content">
             <h3 class="mulhead">product modelling</h3>
@@ -351,5 +363,8 @@
 
     </footer>
 </body>
+
+<script src="./js/services-animation.js"></script>
+<script src="./js/nav-dropdown.js" async></script>
 
 </html>
