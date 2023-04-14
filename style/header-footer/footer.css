@@ -14,11 +14,18 @@ footer .lokesh_title {
 }
 
 footer .lokesh_address, footer .lokesh_email, footer .lokesh_contact{
-  /* background: green; */
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
 }
+
+footer .lokesh_address{
+  /* background: green; */
+  width: fit-content;
+  margin: auto;
+  /* text-align: center; */
+}
+
 
 footer .lokesh_email img, footer .lokesh_contact img{
   /* background-color: aqua; */
@@ -31,6 +38,16 @@ footer .lokesh_email img, footer .lokesh_contact img{
   filter: brightness(70%);
   padding-left: .5rem;
   color: var(--primary);
+}
+
+footer .lokesh_address .lokesh_text-content{
+  /* background: aqua; */
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0;
+
+  /* not of any use margin: auto at line 25 did it */
+  /* text-align: center; */
 }
 
 footer .copy{
