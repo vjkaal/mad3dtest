@@ -41,6 +41,7 @@
   z-index: 1;
   
   background-color: var(--primary);
+  filter: brightness(80%);
   box-shadow: 0 .5rem 1rem 0px rgba(0,0,0,0.2);
 }
 
@@ -51,7 +52,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  padding: .2rem 1rem;
+  padding: .4rem 1rem;
   text-decoration: none;
   display: block;
 }
@@ -59,5 +60,6 @@
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   color: var(--primary);
+  filter: brightness(130%);
   background-color: var(--accent-dark);
 }
