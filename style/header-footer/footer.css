@@ -49,6 +49,25 @@ footer .lokesh_address .lokesh_text-content{
   /* not of any use margin: auto at line 25 did it */
   /* text-align: center; */
 }
+footer .social_media{
+  margin:0 0 2rem 0;
+}
+footer .social_media .edit img{
+  height:2.5rem;
+  width: 2.5rem;
+ 
+  border-radius: 0.8rem;
+}
+
+footer .social_media  img{
+  height:2.8rem;
+  width: 2.5rem;
+  
+}
+footer .social_media a{
+  margin-left: 3rem;
+  margin: 0rem 3rem 1rem auto;
+}
 
 footer .copy{
   color: var(--primary);
