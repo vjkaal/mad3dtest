@@ -74,7 +74,7 @@
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  letter-spacing: 0.16rem;
+  letter-spacing: 0.14rem;
 
   /* line-height: 1.5rem;
   max-height: calc(1.5rem * 3); */
