@@ -4,11 +4,14 @@ article .about_us{
   min-height: fit-content;
   max-height: fit-content;
   padding: 3rem 2rem;
-  
 }
 
 .about_us > div{
   margin-bottom: 2.5rem;
+}
+
+.about_us .our-story{
+  margin-top: 3rem;
 }
 
 section.about_us .vk-title{
