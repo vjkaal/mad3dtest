@@ -34,3 +34,8 @@ section.services{
 .services .vk-text-content{
   padding: 1rem;
 }
+
+.mulhead{
+  text-transform: capitalize;
+  color: var(--secondary);
+}
