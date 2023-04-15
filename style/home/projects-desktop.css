@@ -47,7 +47,7 @@
   margin: 0 auto; */
 /* } */
 
-.projects .content .image-container img{
+.projects .content .image-container img,.video-container video{
   width: 60vw;
   height: 40vw;
   margin: 1rem 1.5rem;
