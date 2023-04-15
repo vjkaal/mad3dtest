@@ -37,4 +37,8 @@ section.about_us .vk-title{
   .about-container > div{
     margin: 0 5vw;
   }
+
+  .about_us .our-story{
+    margin-top: 0;
+  }
 }
