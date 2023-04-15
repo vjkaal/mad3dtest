@@ -59,11 +59,14 @@
   width: 40vw;
   height: 22.5vw;
   margin: 1rem 1.5rem;
-  border-radius: 1rem;
-  box-shadow: 0 0 1rem var(--secondary);
   z-index: 3;
   border-radius: 1rem;
   box-shadow: 0 0 1rem var(--secondary);
+  transition: box-shadow .4s ease-in-out;
+}
+
+.card:hover .image-container img, .card:hover .video-container video{
+  box-shadow: 0 0 2rem var(--accent-dark);
 }
 
 .card .card-text-container{

@@ -4,19 +4,25 @@ article .about_us{
   min-height: fit-content;
   max-height: fit-content;
   padding: 3rem 2rem;
-  text-align: center;
 }
 
 .about_us > div{
   margin-bottom: 2.5rem;
 }
 
+.about_us .our-story{
+  margin-top: 3rem;
+}
+
 section.about_us .vk-title{
+  text-align: center;
   color: var(--secondary);
   font-size: calc(var(--fs-header) * 1.25);
   padding-bottom: 1rem;
 }
 .about_us .vk-text-content{
+  text-align: justify;
+  text-justify: inter-word;
   word-spacing: .1rem;
   font-size: var(--fs-medium);
 }
