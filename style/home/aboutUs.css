@@ -20,3 +20,15 @@ section.about_us .vk-title{
   word-spacing: .1rem;
   font-size: var(--fs-medium);
 }
+
+@media screen and (min-width: 60rem){
+  .about-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+  }
+
+  .about-container > div{
+    margin: 0 5vw;
+  }
+}
