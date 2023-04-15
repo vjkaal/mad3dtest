@@ -41,6 +41,11 @@
   z-index: 3;
 }
 
+.portfolio_images .video-container{
+  min-height: 50vw;
+  max-height: 50vw;
+}
+
 .portfolio_images .image-container img, .portfolio_images .video-container video{
   min-width: inherit;
   max-width: inherit;

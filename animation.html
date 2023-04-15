@@ -32,7 +32,7 @@
             <a href="./index.html#intro">HOME</a>
           </div>
           <div class="services dropdown nav-link-container">
-            <button class="dropbtn" onclick="toggleDropDown()">Services</button>
+            <div class="dropbtn" onclick="toggleDropDown()">Services</div>
               <div class="dropdown-content">
                 <a href="./interior.html">interior design</a>
                 <a href="./exterior.html">exterior design</a>
@@ -57,7 +57,7 @@
 
 
   <article>
-    <section class="services" id="services">
+    <section class="services animate__animated animate__fadeInLeft id="services">
       <div class="interior">
         <a href="./interior.html">
           <div class="vk-image image-container">
@@ -132,66 +132,102 @@
 
     <section class="portfolio_images architecture_images">
 
-      <div class="vk-title">
+      <div class="vk-title animate__animated animate__fadeInRight">
         <h1 class="mulhead">product animation</h1>
       </div>
 
-      <div class="content card-container">
-        <button class="card" onclick="toggleCardText(1)">
+      <div class="content card-container animate__animated animate__fadeInUp">
+        <div class="card" onclick="toggleCardText(1)">
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/Angelus watch.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/Angelus watch.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text1">
+            <div class="vk-heading">
+              <h2>angelus watch</h2>
+            </div>
+          </div>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card" onclick="toggleCardText(2)" >
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/Furlan Watch_4.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/Furlan Watch_4.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text2">
+            <div class="vk-heading">
+              <h2>furlan watch</h2>
+            </div>
+          </div>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card" onclick="toggleCardText(3)">
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/Ghost Dink.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/Ghost Dink.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text3">
+            <div class="vk-heading">
+              <h2>ghost drink</h2>
+            </div>
+          </div>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card" onclick="toggleCardText(4)" >
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/Nike shoe part 2.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/Reebok shoes Final Video.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text4">
+            <div class="vk-heading">
+              <h2>reebok shoes</h2>
+            </div>
+          </div>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card"  onclick="toggleCardText(5)">
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/NIke Shoes commercial_Final.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/nike shoes part 5.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text1">
+            <div class="vk-heading">
+              <h2>nike shoes (ad 1)</h2>
+            </div>
+          </div>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card" onclick="toggleCardText(6)" >
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/nike shoes part 1.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/Nike shoe part 2.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text6">
+            <div class="vk-heading">
+              <h2>nike shoes (ad 2)</h2>
+            </div>
+          </div>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card"  onclick="toggleCardText(7)">
           <div class="video-container">
             <video controls>
-              <source src="./res/images/product animation/product animation/final renders/Reebok shoes Final Video.mp4" type="video/mp4">
+              <source src="./res/images/product_animation/NIke Shoes commercial_Final.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
+          <div class="card-text-container" id="card-text7">
+            <div class="vk-heading">
+              <h2>nike shoes (ad 3)</h2>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   </article>
