@@ -57,7 +57,7 @@
 
 
   <article>
-    <section class="services" id="services">
+    <section class="services animate__animated animate__fadeInRight" id="services">
       <div class="interior">
         <a href="./interior.html">
           <div class="vk-image image-container">
@@ -132,80 +132,77 @@
 
     <section class="portfolio_images">
 
-      <div class="vk-title animate__animated animate__slideInLeft">
+      <div class="vk-title animate__animated animate__fadeInLeft">
         <h1 class="mulhead">interior design</h1>
       </div>
 
-      <div class="content card-container">
+      <div class="content card-container animate__animated animate__fadeInUp">
 
-
-        <div class="card">
+        <div class="card" onclick="toggleCardText(1)">
           <div class="image-container">
             <img src="./res/images/architecture/RENDER_001 copy.jpg" alt="" srcset="">
           </div>
           <div class="card-text-container">
             <div class="vk-heading">
-              <h2>elegant hall design (view 1)</h2>
+              <h2>hall (view 1)</h2>
             </div>
           </div>
         </div>
-
-        <div class="card">
+        
+        <div class="card" onclick="toggleCardText(2)">
           <div class="image-container">
             <img src="./res/images/architecture/RENDER_002 copy.jpg" alt="" srcset="">
           </div>
-          <div class="card-text-container">
+          <div class="card-text-container" id="card-text2">
             <div class="vk-heading">
-              <h2>elegant hall design (view 2)</h2>
+              <h2>hall (view 2)</h2>
             </div>
           </div>
         </div>
-
-        <div class="card">
+          
+        <div class="card" onclick="toggleCardText(3)">
           <div class="image-container">
             <img src="./res/images/architecture/RENDER_003 copy.jpg" alt="" srcset="">
           </div>
           <div class="card-text-container">
             <div class="vk-heading">
-              <h2>modern kitchen</h2>
+              <h2>modular kitchen</h2>
             </div>
           </div>
         </div>
-
-
-        <div class="card">
+        
+        <div class="card" onclick="toggleCardText(4)"> 
+          <div class="image-container">
+          <img src="./res/images/architecture/cam_01 copy.jpg" alt="" srcset="">
+          </div>
+          <div class="card-text-container" id="card-text4">
+          <div class="vk-heading">
+            <h2>modern bedroom design</h2>
+          </div>
+          </div>
+        </div>
+        <div class="card" onclick="toggleCardText(5)">
           <div class="image-container">
             <img src="./res/images/architecture/render_03 copy.jpg" alt="" srcset="">
           </div>
           <div class="card-text-container">
             <div class="vk-heading">
-              <h2>lobby design 1</h2>
+              <h2>elegant lobby design</h2>
             </div>
           </div>
         </div>
-
-        <div class="card">
-          <div class="image-container">
-            <img src="./res/images/architecture/cam_01 copy.jpg" alt="" srcset="">
-          </div>
-          <div class="card-text-container">
-            <div class="vk-heading">
-              <h2>bedroom with workspace design</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
+          
+         
+        <div class="card" onclick="toggleCardText(6)"> 
           <div class="image-container">
             <img src="./res/images/architecture/FOYER01_copy.jpg" alt="" srcset="">
           </div>
           <div class="card-text-container">
             <div class="vk-heading">
-              <h2>elegant staircase design</h2>
+              <h2>marvelous staircase</h2>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   </article>
