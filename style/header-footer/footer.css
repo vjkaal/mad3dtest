@@ -5,6 +5,7 @@ footer {
 
 footer .contact_us {
   padding: 3rem 1rem;
+  /* background: aqua; */
 }
 
 footer .lokesh_title {
@@ -49,25 +50,38 @@ footer .lokesh_address .lokesh_text-content{
   /* not of any use margin: auto at line 25 did it */
   /* text-align: center; */
 }
+
+
+
+/* social media design here */
+
 footer .social_media{
-  margin:0 0 2rem 0;
+  /* background: aqua; */
+  min-width: fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
 }
+
 footer .social_media .edit img{
   height:2.5rem;
   width: 2.5rem;
  
   border-radius: 0.8rem;
+  display: inline-block;
+  /* background: aqua; */
 }
 
 footer .social_media  img{
   height:2.8rem;
-  width: 2.5rem;
-  
+  width: 2.5rem;  
 }
+
 footer .social_media a{
-  margin-left: 3rem;
-  margin: 0rem 3rem 1rem auto;
+  margin: 0 1.5rem;
 }
+
+
+/* copyright design here */
 
 footer .copy{
   color: var(--primary);
@@ -97,4 +111,13 @@ footer .copy .first::after{
   footer .copy .first::after{
     all:unset;
   }
+
+  footer .social_media{
+    margin-bottom: 2rem;
+  }
+
+  footer .social_media a{
+    margin: 0 3rem;
+  }
+
 }
