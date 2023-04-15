@@ -11,6 +11,7 @@ function toggleDropDown(){
 }
 
 function showDropDown(){
+  console.log('yes')
   if(window.innerWidth >= '960'){
     let content = document.querySelector('.dropdown-content');
     content.style.display = 'inline-block';
