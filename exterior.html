@@ -174,11 +174,16 @@
 
         
 
-        <div class="card" onclick="toggleCardText(1)">
+        <div class="card" onclick="toggleCardText(4)">
           <div class="video-container">
-            <video controls>
+            <video id="vid1" controls loop muted onmouseover="playVid('#vid1')" onmouseout="pauseVid('#vid1')" >
               <source src="./res/images/Landscape/edit.mp4" type="video/mp4">
             </video>
+          </div>
+          <div class="card-text-container" id="card-text4">
+            <div class="vk-heading">
+              <h2>interior exterior show reel</h2>
+            </div>
           </div>
         </div>
       </div>
@@ -250,6 +255,7 @@
 
 <script src="./js/card.js" defer></script>
 <script src="./js/nav-dropdown.js" async></script>
+<script src="./js/video.js" defer></script>
 
 
 </html>
