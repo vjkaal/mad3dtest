@@ -33,14 +33,14 @@
           </div>
           <div class="services dropdown nav-link-container">
             <button class="dropbtn" onclick="toggleDropDown()">Services</button>
-              <div class="dropdown-content">
-                <a href="./interior.html">interior design</a>
-                <a href="./exterior.html">exterior design</a>
-                <a href="./gaming.html">gaming assets</a>
-                <a href="./medical.html">medical equipments</a>
-                <a href="./animation.html">animation</a>
-                <a href="./modeling.html">modeling</a>
-              </div>
+            <div class="dropdown-content">
+              <a href="./interior.html">interior design</a>
+              <a href="./exterior.html">exterior design</a>
+              <a href="./gaming.html">gaming assets</a>
+              <a href="./medical.html">medical equipments</a>
+              <a href="./animation.html">animation</a>
+              <a href="./modeling.html">modeling</a>
+            </div>
           </div>
           <div class="portfolio nav-link-container">
             <a href="./interior.html">PORTFOLIO</a>
@@ -53,11 +53,14 @@
           </div>
         </div>
       </nav>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   </header>
 
 
   <article>
-    <section class="services" id="services">
+    <section class="services animate__animated animate__fadeInRight" id="services">
       <div class="interior">
         <a href="./interior.html">
           <div class="vk-image image-container">
@@ -131,74 +134,53 @@
     </section>
     <section class="portfolio_images">
 
-      <div class="vk-title">
+      <div class="vk-title animate__animated animate__fadeInLeft">
         <h1 class="mulhead">Landscape design</h1>
       </div>
 
-      <div class="content card-container">
-        <button class="card" onclick="toggleCardText(1)">
+      <div class="content card-container animate__animated animate__fadeInUp">
+        <div class="card" onclick="toggleCardText(1)">
           <div class="image-container">
             <img src="./res/images/Landscape/Landscape/R_01 copy.jpg" alt="" srcset="">
           </div>
           <div class="card-text-container" id="card-text1">
             <div class="vk-heading">
-              <h2>HEADING text content</h2>
+              <h2>small house</h2>
             </div>
           </div>
-        </button>
+        </div>
 
-        <button class="card" onclick="toggleCardText(2)">
-          <div class="image-container">
-            <img src="./res/images/Landscape/Landscape/R_03 copy.jpg" alt="" srcset="">
-          </div>
-          <div class="card-text-container" id="card-text2">
-            <div class="vk-heading">
-              <h2>HEADING text content</h2>
-            </div>
-          </div>
-        </button>
-
-        <button class="card" onclick="toggleCardText(3)">
+        <div class="card" onclick="toggleCardText(3)">
           <div class="image-container">
             <img src="./res/images/Landscape/Landscape/R_19_01 copy.jpg" alt="" srcset="">
           </div>
           <div class="card-text-container" id="card-text3">
             <div class="vk-heading">
-              <h2>HEADING text content</h2>
+              <h2>modular villa</h2>
             </div>
           </div>
-        </button>
+        </div>
 
-        <button class="card" onclick="toggleCardText(1)">
+        <div class="card" onclick="toggleCardText(2)">
+          <div class="image-container">
+            <img src="./res/images/Landscape/Landscape/R_03 copy.jpg" alt="" srcset="">
+          </div>
+          <div class="card-text-container" id="card-text2">
+            <div class="vk-heading">
+              <h2>neighbourhood map</h2>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="card" onclick="toggleCardText(1)">
           <div class="video-container">
             <video controls>
               <source src="./res/images/Landscape/Landscape/edit.mp4" type="video/mp4">
             </video>
           </div>
-        </button>
-
-
-        <button class="card" onclick="toggleCardText(5)">
-          <div class="image-container">
-            <img src="./res/images/architecture/cam_01 copy.jpg" alt="" srcset="">
-          </div>
-          <div class="card-text-container" id="card-text5">
-            <div class="vk-heading">
-              <h2>HEADING text content</h2>
-            </div>
-          </div>
-        </button>
-
-        <button class="card" onclick="toggleCardText(6)">
-          <div class="image-container">
-            <img src="./res/images/architecture/cam_01 copy.jpg" alt="" srcset="">
-          </div>
-          <div class="card-text-container" id="card-text6">
-            <div class="vk-heading">
-              <h2>HEADING text content</h2>
-            </div>
-          </div>
-        </button>
+        </div>
       </div>
     </section>
   </article>
@@ -210,7 +192,7 @@
         <div class="lokesh_title">
           <h1>CONTACT US</h1>
         </div>
-  
+
         <a href="#">
           <div class="lokesh_address">
             <div class="image-container">
@@ -221,7 +203,7 @@
             </div>
           </div>
         </a>
-  
+
         <a href="mailto:production@mad3dstudio.com">
           <div class="lokesh_email">
             <div class="image-container">
@@ -232,7 +214,7 @@
             </div>
           </div>
         </a>
-  
+
         <a href="tel:(+91)9779361804">
           <div class="lokesh_contact">
             <div class="image-container">
@@ -245,11 +227,11 @@
         </a>
       </section>
 
-    <section class="copy">
-      <p> Copyright &copy; 2023 MAD3DSTUDIO</p>
-    </section>
+      <section class="copy">
+        <p> Copyright &copy; 2023 MAD3DSTUDIO</p>
+      </section>
 
-  </footer>
+    </footer>
 </body>
 
 <script src="./js/card.js" defer></script>

@@ -2,6 +2,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
+  /* background: aqua; */
 }
 
 .dropdown:hover{
@@ -26,25 +27,26 @@
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  min-height: fit-content;
-  max-height: fit-content;
   min-width: calc(100vw/7);
   max-width: calc(100vw/7);
+  min-height: fit-content;
+  max-height: fit-content;
+  
+  position: absolute;
   top: .9rem;
   left: -1rem;
+
   margin: .1rem 0;
   padding: 0;
+  z-index: 1;
+  
   background-color: var(--primary);
   box-shadow: 0 .5rem 1rem 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
-  transition: display 300ms ease-in-out;
+  display: inline-block;
 }
 
 /* Links inside the dropdown */

@@ -21,41 +21,38 @@
   max-height: 60vw;
   /* background: aqua; */
   /* border: 1px solid black; */
+
   text-align: center;
-  padding: 0;
-  margin: 1rem;
   position: relative;
+  padding: 0;
+  margin: 2rem auto;
   border: 0;
+
   font-family: var(--font1);
   font-size: var(--fs-medium);
+  color: var(--secondary);
 }
 
-.portfolio_images .image-container{
+.portfolio_images .image-container, .portfolio_images .video-container{
   min-width: inherit;
   max-width: inherit;
   min-height: inherit;
   max-height: inherit;
   z-index: 3;
 }
+
 .portfolio_images .video-container{
-  min-width: inherit;
-  max-width: inherit;
-  min-height: inherit;
-  max-height: inherit;
-  z-index: 3;
+  min-height: 50vw;
+  max-height: 50vw;
 }
 
-.portfolio_images .image-container img{
+.portfolio_images .image-container img, .portfolio_images .video-container video{
   min-width: inherit;
   max-width: inherit;
   min-height: inherit;
   max-height: inherit;
-}
-.portfolio_images .video-container video{
-  min-width: inherit;
-  max-width: inherit;
-  min-height: inherit;
-  max-height: inherit;
+  border-radius: 1em;
+  box-shadow: 0 0 .5em var(--secondary);
 }
 
 .portfolio_images .card-text-container{
@@ -63,9 +60,7 @@
   max-width: 90vw;
   min-height: 60vw;
   max-height: 60vw;
-  opacity: 0.7;
-  color: var(--primary);
-  filter: brightness(70%);
+  opacity: 0.8;
   padding: 1rem 0;
   /* margin: auto 5vw; */
   position: absolute;
@@ -75,6 +70,7 @@
 
 .portfolio_images .card-text-container .vk-heading{
   font-size: var(--fs-medium);
+  text-transform: capitalize;
 }
 
 .portfolio_images .card-text-container .vk-text-content {

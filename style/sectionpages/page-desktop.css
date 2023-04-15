@@ -35,29 +35,43 @@
   flex-flow: row nowrap;
   text-decoration: none; */
   color: var(--secondary);
+<<<<<<< HEAD
+
+  transition: scale 300ms ease-in-out,
+    color 200ms ease-out;
+}
+
+=======
+  margin: 1rem auto; 
+  transition: scale 300ms ease-in-out,
+    color 200ms ease-out;
+}
+
+>>>>>>> curr
+.card:hover{
+  scale: 105%;
+  color: var(--accent-light);
 }
 
 
-.card .image-container{
+.card .image-container, .card .video-container{
   min-width: inherit;
   max-width: inherit;
   min-height: inherit;
   max-height: inherit;
   z-index: 3;
-}
-.card .video-container{
-  min-width: inherit;
-  max-width: inherit;
-  min-height: inherit;
-  max-height: inherit;
-  z-index: 3;
+
 }
 
-.card .image-container img{
+.card .image-container img, .card .video-container video{
   width: 40vw;
-  height: 25vw;
+  height: 22.5vw;
   margin: 1rem 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem var(--secondary);
   z-index: 3;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem var(--secondary);
 }
 
 .card .card-text-container{
@@ -65,18 +79,22 @@
   max-width: inherit;
   min-height: inherit;
   max-height: inherit;
-  opacity: 0.7;
+  opacity: 0.8;
   background: var(--accent);
   padding: 2rem 1rem;
   /* margin: auto 5vw; */
   display: inline;
   z-index: 4;
+  text-transform: capitalize;
 }
 
 .card .vk-heading{
-  font-size: calc(1.5 * var(--fs-header));
+  font-size: var(--fs-header);
   font-weight: bold;
+
   line-height: 3.5rem;
-  margin-bottom: 1rem;
   letter-spacing: 0.14rem;
+  text-transform: capitalize;
+
+  margin-bottom: 1rem;
 }

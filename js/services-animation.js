@@ -46,8 +46,8 @@ function checkPosition() {
     var val = positionFromTop - windowHeight
     if (val > -1200 && val < 0){
       element.classList.add('animate__animated');
-      console.log(element)
-      console.log(positionFromTop - windowHeight)
+      // console.log(element)
+      // console.log(positionFromTop - windowHeight)
     }
     else element.classList.remove('animate__animated');
   }
