@@ -35,6 +35,14 @@
   flex-flow: row nowrap;
   text-decoration: none; */
   color: var(--secondary);
+  margin: 1rem auto; 
+  transition: scale 300ms ease-in-out,
+    color 200ms ease-out;
+}
+
+.card:hover{
+  scale: 105%;
+  color: var(--accent-light);
 }
 
 
@@ -51,6 +59,8 @@
   height: 25vw;
   margin: 1rem 1.5rem;
   z-index: 3;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem var(--secondary);
 }
 
 .card .card-text-container{
