@@ -226,7 +226,7 @@
         <div class="product-animation">
           <div class="link">
             <div class="video-container">
-              <video controls>
+              <video id="vid1" controls loop muted onmouseover="playVid('#vid1')" onmouseout="pauseVid('#vid1')" >
                 <source src="./res/images/product animation/Angelus watch.mp4" type="video/mp4">
               </video>
             </div>
@@ -377,5 +377,6 @@
 
 <script src="./js/services-animation.js"></script>
 <script src="./js/nav-dropdown.js" async></script>
+<script src="./js/video.js" defer></script>
 
 </html>
