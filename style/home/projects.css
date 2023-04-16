@@ -24,7 +24,7 @@
   color: var(--secondary);
 }
 
-.projects .content .image-container img {
+.projects .content .image-container img, .content .video-container video {
   width: 90%;
 }
 
