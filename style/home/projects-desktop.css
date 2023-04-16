@@ -68,7 +68,7 @@
   letter-spacing: 0.14rem;
 }
 
-.projects .content .text-container .vk-text-content {
+.projects .content .text-container .vk-text-content .desc-text-container {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -79,6 +79,11 @@
   /* line-height: 1.5rem;
   max-height: calc(1.5rem * 3); */
 }
+
+.projects .vk-text-content .page-link a{
+  color: var(--accent-dark);
+}
+
 .projects .content .text-container .view_more{
   font-size: calc(1.5 * var(--fs-header));
   font-weight: bold;

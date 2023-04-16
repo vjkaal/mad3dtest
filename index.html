@@ -33,15 +33,16 @@
             <a href="./index.html#intro">HOME</a>
           </div>
           <div class="dropdown nav-link-container">
-            <button class="dropbtn" onclick="toggleDropDown()" onmouseover="showDropDown()" onmouseout="hideDropDown()">Services</button>
-              <div class="dropdown-content">
-                <a href="./interior.html">interior design</a>
-                <a href="./exterior.html">exterior design</a>
-                <a href="./gaming.html">gaming assets</a>
-                <a href="./medical.html">medical equipments</a>
-                <a href="./animation.html">animation</a>
-                <a href="./modeling.html">modeling</a>
-              </div>
+            <button class="dropbtn" onclick="toggleDropDown()" onmouseover="showDropDown()"
+              onmouseout="hideDropDown()">Services</button>
+            <div class="dropdown-content">
+              <a href="./interior.html">interior design</a>
+              <a href="./exterior.html">exterior design</a>
+              <a href="./gaming.html">gaming assets</a>
+              <a href="./medical.html">medical equipments</a>
+              <a href="./animation.html">animation</a>
+              <a href="./modeling.html">modeling</a>
+            </div>
           </div>
           <div class="portfolio nav-link-container">
             <a href="./interior.html">PORTFOLIO</a>
@@ -164,7 +165,7 @@
       </div>
       <div class="content">
         <div class="architecture">
-          <a class="link" href="./architecture.html">
+          <div class="link">
             <div class="image-container">
               <img src="./res/images/architecture/RENDER_001 copy.jpg" alt="" srcset="">
             </div>
@@ -173,10 +174,18 @@
                 <h2 class="mulhead">interior designing</h2>
               </div>
               <div class="vk-text-content">
-                <p>Transform your space with stunning 3D interior designs that exceed your expectations.</p>
-              </div>            
+                <div class="desc-text-container">
+                  <p>Transform your space with stunning 3D interior designs that exceed your expectations.</p>
+                </div>
+
+                <div class="page-link">
+                  <a href="./interior.html">
+                    <p>View more...</p>
+                  </a>
+                </div>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
         <div class="landscape">
           <div class="link1">
@@ -188,7 +197,15 @@
                 <h2 class="mulhead">exterior designing</h2>
               </div>
               <div class="vk-text-content">
-                <p>Elevate your curb appeal with cutting-edge 3D exterior designs that capture the essence of your vision.</p>
+                <div class="desc-text-container">
+                  <p>Elevate your curb appeal with cutting-edge 3D exterior designs that capture the essence of your
+                    vision.</p>
+                </div>
+                <div class="page-link">
+                  <a href="./exterior.html">
+                    <p>View more...</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -203,7 +220,14 @@
                 <h2 class="mulhead">3D gaming assets</h2>
               </div>
               <div class="vk-text-content">
-                <p>Enhance your gaming experience with high-quality 3D character models and environments.</p>
+                <div class="desc-text-container">
+                  <p>Enhance your gaming experience with high-quality 3D character models and environments.</p>
+                </div>
+                <div class="page-link">
+                  <a href="./gaming.html">
+                    <p>View more...</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -218,7 +242,15 @@
                 <h2 class="mulhead">medical equipments 3D model</h2>
               </div>
               <div class="vk-text-content">
-                <p>Experience innovation in healthcare with accurate and detailed 3D representations of medical equipment.</p>
+                <div class="desc-text-container">
+                  <p>Experience innovation in healthcare with accurate and detailed 3D representations of medical
+                    equipment.</p>
+                </div>
+                <div class="page-link">
+                  <a href="./medical.html">
+                    <p>View more...</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -226,7 +258,8 @@
         <div class="product-animation">
           <div class="link">
             <div class="video-container">
-              <video id="vid1" controls loop autoplay muted onmouseover="playVid('#vid1')" onmouseout="pauseVid('#vid1')" >
+              <video id="vid1" controls loop autoplay muted onmouseover="playVid('#vid1')"
+                onmouseout="pauseVid('#vid1')">
                 <source src="./res/images/product animation/Angelus watch.mp4" type="video/mp4">
               </video>
             </div>
@@ -235,7 +268,14 @@
                 <h2 class="mulhead">product animation</h2>
               </div>
               <div class="vk-text-content">
-                <p>Connect with your audience and drive sales with captivating 3D product animations.</p>
+                <div class="desc-text-container">
+                  <p>Connect with your audience and drive sales with captivating 3D product animations.</p>
+                </div>
+                <div class="page-link">
+                  <a href="./animation.html">
+                    <p>View more...</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -243,14 +283,23 @@
         <div class="product-modelling">
           <div class="link1">
             <div class="image-container">
-              <img src="./res/images/product_modelling/Wilson_glove_renders/wilson glove final render view3.png" alt="" srcset="">
+              <img src="./res/images/product_modelling/Wilson_glove_renders/wilson glove final render view3.png" alt=""
+                srcset="">
             </div>
             <div class="text-container">
               <div class="vk-heading">
-                <h2  class="mulhead">3D realistic product modelling</h2>
+                <h2 class="mulhead">3D realistic product modelling</h2>
               </div>
               <div class="vk-text-content">
-                <p>Visualize, test, and refine your product designs with precision and efficiency through our highly accurate 3D modeling services.</p>
+                <div class="desc-text-container">
+                  <p>Visualize, test, and refine your product designs with precision and efficiency through our highly
+                    accurate 3D modeling services.</p>
+                </div>
+                <div class="page-link">
+                  <a href="./modeling.html">
+                    <p>View more...</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -269,36 +318,41 @@
           </div>
           <div class="vk-text-content">
             <p>
-            At MAD3D STUDIO, we are passionate about bringing ideas to life through stunning visual media. Our team of skilled
-            professionals has years of experience in 3D design, animation, video production, and visual effects, and we pride
-            ourselves on delivering creative solutions that exceed our clients expectations. 
-            <br>
-            <br>
-            If you're looking for a partner that can help you bring your ideas to life through stunning visual media, look no 
-            further than MAD3D STUDIO. Contact us today to learn more about how we can help you achieve your goals.
+              At MAD3D STUDIO, we are passionate about bringing ideas to life through stunning visual media. Our team of
+              skilled
+              professionals has years of experience in 3D design, animation, video production, and visual effects, and
+              we pride
+              ourselves on delivering creative solutions that exceed our clients expectations.
+              <br>
+              <br>
+              If you're looking for a partner that can help you bring your ideas to life through stunning visual media,
+              look no
+              further than MAD3D STUDIO. Contact us today to learn more about how we can help you achieve your goals.
             </p>
           </div>
         </div>
-  
+
         <div class="our-story">
           <div class="vk-title">
             <h1>OUR STORY</h1>
           </div>
           <div class="vk-text-content">
             <p>
-              We started as a team of skilled professionals includes 3D artists, graphic designers, animators, and visual
+              We started as a team of skilled professionals includes 3D artists, graphic designers, animators, and
+              visual
               effects experts who have made a name for themselves in their respective fields.
               <br />
               <br />
               We use the latest software and technology to create realistic 3D models, animations, and renderings that
               bring
-              your ideas to life. We also offer graphic design services for branding, marketing, and web design, ensuring
+              your ideas to life. We also offer graphic design services for branding, marketing, and web design,
+              ensuring
               that your business has a consistent and appealing visual identity.
             </p>
           </div>
         </div>
       </div>
-      
+
 
       <!-- <div class="our-team">
         <div class="vk-title">
@@ -312,67 +366,67 @@
   </article>
 
 
-  
-    <footer>
-      <section class="contact_us" id="contact_us">
-        <div class="lokesh_title">
-          <h1>CONTACT US</h1>
+
+  <footer>
+    <section class="contact_us" id="contact_us">
+      <div class="lokesh_title">
+        <h1>CONTACT US</h1>
+      </div>
+
+
+      <a href="#">
+        <div class="lokesh_address">
+          <div class="image-container">
+            <img src="./res/images/icons/location.svg" alt="">
+          </div>
+          <div class="lokesh_text-content">
+            <span>306 Rampura, Tri Nagar, Delhi; PINCODE: 110035</span>
+          </div>
         </div>
+      </a>
 
-
-        <a href="#">
-          <div class="lokesh_address">
-            <div class="image-container">
-              <img src="./res/images/icons/location.svg" alt="">
-            </div>
-            <div class="lokesh_text-content">
-              <span>306 Rampura, Tri Nagar, Delhi; PINCODE: 110035</span>
-            </div>
+      <a href="mailto:production@mad3dstudio.com">
+        <div class="lokesh_email">
+          <div class="image-container">
+            <img src="./res/images/icons/email.svg" alt="">
           </div>
-        </a>
-
-        <a href="mailto:production@mad3dstudio.com">
-          <div class="lokesh_email">
-            <div class="image-container">
-              <img src="./res/images/icons/email.svg" alt="">
-            </div>
-            <div class="lokesh_text-content">
-              <span>production@mad3dstudio.com</span>
-            </div>
+          <div class="lokesh_text-content">
+            <span>production@mad3dstudio.com</span>
           </div>
-        </a>
+        </div>
+      </a>
 
-        <a href="tel:(+91)9779361804">
-          <div class="lokesh_contact">
-            <div class="image-container">
-              <img src="./res/images/icons/call.svg" alt="">
-            </div>
-            <div class="lokesh_text-content">
-              <span>+91 97793-61804</span>
-            </div>
+      <a href="tel:(+91)9779361804">
+        <div class="lokesh_contact">
+          <div class="image-container">
+            <img src="./res/images/icons/call.svg" alt="">
           </div>
-        </a>
-      </section>
+          <div class="lokesh_text-content">
+            <span>+91 97793-61804</span>
+          </div>
+        </div>
+      </a>
+    </section>
 
-      <section class="social_media">
-        <a class="edit" href="https://www.instagram.com/mad3d_studio/?igshid=YmMyMTA2M2Y%3D" target="_blank">
-            <img src=".\res\images\icons\instagram.svg" alt="">
-        </a>
-        <a class="edit" href="https://www.linkedin.com/company/mad3d-studio/" target="_blank">
-          <img src=".\res\images\icons/linkedin.svg" alt="">
-        </a>
-        <a class="edit" href="https://www.youtube.com/@Mad3dStudio" target="_blank">
+    <section class="social_media">
+      <a class="edit" href="https://www.instagram.com/mad3d_studio/?igshid=YmMyMTA2M2Y%3D" target="_blank">
+        <img src=".\res\images\icons\instagram.svg" alt="">
+      </a>
+      <a class="edit" href="https://www.linkedin.com/company/mad3d-studio/" target="_blank">
+        <img src=".\res\images\icons/linkedin.svg" alt="">
+      </a>
+      <a class="edit" href="https://www.youtube.com/@Mad3dStudio" target="_blank">
         <img src=".\res\images\icons/youtube.svg" alt="">
-        </a>
+      </a>
 
-      </section>
+    </section>
 
-      <section class="copy">
-        <span class="first">Copyright &copy; 2023.</span>
-        <span>All Rights Reserved to MAD3DSTUDIO</span>
-      </section>
+    <section class="copy">
+      <span class="first">Copyright &copy; 2023.</span>
+      <span>All Rights Reserved to MAD3DSTUDIO</span>
+    </section>
 
-    </footer>
+  </footer>
 </body>
 
 <script src="./js/services-animation.js"></script>
