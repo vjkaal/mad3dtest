@@ -25,6 +25,7 @@ footer .lokesh_address{
   width: fit-content;
   margin: auto;
   /* text-align: center; */
+  display:none;
 }
 
 
