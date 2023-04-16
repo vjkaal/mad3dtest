@@ -67,13 +67,14 @@
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  filter: brightness(130%);
-  color: var(--accent-light);
+  filter: unset;
+  color: var(--primary);
   background-color: var(--accent-dark);
   border-radius: .5rem;
-  font-size: var(--fs-medium);
+  font-size: var(--fs-normal);
   /* font-family: var(--font2); */
   /* letter-spacing: .1rem; */
   transform: scale(105%);
-  padding: .4rem 1rem .4rem 2rem;
+  text-align: center;
+  /* padding: .4rem 1rem .4rem 2rem; */
 }
