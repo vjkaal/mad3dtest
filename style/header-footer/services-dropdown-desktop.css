@@ -48,18 +48,32 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: inline-block;
+  transform: translateX(5px);
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
   padding: .4rem 1rem;
   text-decoration: none;
+  
   display: block;
+  position: relative;
+  transition: padding 400ms ease-in-out;
+  -moz-transition: padding 400ms ease-in-out;
+  -webkit-transition: padding 400ms ease-in-out;
+  -o-transition: padding 400ms ease-in-out;
+  -ms-transition: padding 400ms ease-in-out;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  color: var(--primary);
   filter: brightness(130%);
+  color: var(--accent-light);
   background-color: var(--accent-dark);
+  border-radius: .5rem;
+  font-size: var(--fs-medium);
+  /* font-family: var(--font2); */
+  /* letter-spacing: .1rem; */
+  transform: scale(105%);
+  padding: .4rem 1rem .4rem 2rem;
 }
