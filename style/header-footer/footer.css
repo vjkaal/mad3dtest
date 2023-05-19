@@ -96,7 +96,7 @@ footer .copy .first::after{
 }
 
 
-@media screen and (min-width: 50rem){
+@media screen and (min-width: 60rem){
   footer .contact_us{
     display: flex;
     flex-flow: row nowrap;
