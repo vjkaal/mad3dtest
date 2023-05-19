@@ -35,7 +35,7 @@
           <div class="dropdown nav-link-container">
             <button class="dropbtn" onclick="toggleDropDown()" onmouseover="showDropDown()"
               onmouseout="hideDropDown()">Services</button>
-            <div class="dropdown-content">
+            <div class="dropdown-content" hidden>
               <a href="./interior.html">interior design</a>
               <a href="./exterior.html">exterior design</a>
               <a href="./gaming.html">gaming assets</a>
@@ -258,7 +258,7 @@
         <div class="product-animation">
           <div class="link">
             <div class="video-container">
-              <video id="vid1" controls loop autoplay muted onmouseover="playVid('#vid1')"
+              <video id="vid1" controls loop muted onmouseover="playVid('#vid1')"
                 onmouseout="pauseVid('#vid1')">
                 <source src="./res/images/product animation/Angelus watch.mp4" type="video/mp4">
               </video>
